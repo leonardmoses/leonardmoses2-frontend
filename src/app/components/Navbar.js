@@ -8,11 +8,13 @@ const Navbar = () => {
     return ( 
         <nav>
             <div className="Logo">
+            <Link href="/">
                 <Image 
-                className="Logo"
-                src={Logo}
-                alt="Logo"
+                    className="Logo"
+                    src={Logo}
+                    alt="Logo"
                 />
+                </Link>
             </div>
 
             <ul>
