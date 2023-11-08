@@ -1,6 +1,8 @@
+import './About.scss'
+
 const About = () => {
     return ( 
-        <div>
+        <div className="About">
             <h1>About Page</h1>
         </div>
      );
