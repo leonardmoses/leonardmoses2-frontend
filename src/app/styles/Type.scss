@@ -51,42 +51,13 @@
   } 
 
 
-    body, h1, h2, h3, h4, h5, h6, p, a, div, input {
-      // font-family: 'Roboto','Trebuchet MS','Helvetica,Arial','sans-serif';
-    
-    }
 
-    
-    h1 {
-      font-size: 7rem;
-      // @include Title1();
-    }
-    
-    h2 {
-      font-size: 3.5rem;
-      // @include Title2();
-    }
-    
-    h3 {
-      font-size: 2rem;
-      // @include Title3();
-    }
-    h4 {
-      font-size: 2.5rem;
-    }
-    h5 {
-      font-size: 1.2rem;
-    }
-    h6 {
-      font-size: 1.1rem;
-    }
-    
-    p {
-      // font-family: 'Comic Neue', cursive;
-      font-size: 1rem;
-    }
-    
-    a {
-      // font-family: 'Comic Neue', cursive;
-      font-size: 1rem;
-    }
+
+    $script-font1: 'Ballet', cursive;
+    $script-font2: 'Monsieur La Doulaise', cursive;
+    $script-font3: 'Italianno', cursive;
+
+    $title-font1: 'Cinzel', serif;
+    $title-font2: 'Gruppo', cursive;
+
+    $body-font: 'Cormorant Infant', serif;

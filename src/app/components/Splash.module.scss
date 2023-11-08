@@ -1,0 +1,210 @@
+@import '../Main.scss' ;
+
+
+.body {
+  --background: linear-gradient(white, $complementary1);
+  height: 100vh;
+  background-image: linear-gradient(white, $complementary1);
+  background-attachment: fixed;
+  // background-repeat: no-repeat;
+
+/* To prevent no show for framer-motion on hover for dots (inherited from Type.scss)*/
+  h1 {
+    -webkit-text-fill-color: unset; 
+    -moz-text-fill-color: unset;
+    font-size: 45px;
+  }
+
+
+  .header {
+    margin: 20px auto 0 auto;
+    // background-color: aquamarine;
+    width: fit-content;
+
+    .directions { /* technique from https://www.youtube.com/watch?v=w1nhwUGsG6M */
+      h3 {
+        // font-family: $title-font2;
+        font-size: 20px;
+        position: relative;
+      }
+      h3::before , h3::after {
+        content: '';
+        position: absolute;
+        // background-color: red;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+      }
+
+      h3::before {
+        background-color: white;
+        animation: typewriter 2s ease forwards;
+        animation-delay: 3s;
+      }
+
+      @keyframes typewriter {
+        to {
+          left: 100%;
+        }
+      }
+
+    }
+  }
+
+  .main {
+    // background-color: gold;
+    display: flex;
+    flex-wrap: wrap;
+
+    .title_container {
+      // background-color: gold;
+      margin: 0 auto;
+      padding: 20px 0 50px 0 ;
+      height: 50px;
+      // margin-top: 100px;
+      width: fit-content;
+      width: 100%;
+
+      @include iphone12Pro {padding-top: 0px;}
+      @include iphone5SE {margin-top: -30px;}
+
+      h1{
+        font-size: 50px;
+        // font-family: $title-font2;
+        text-align: center;
+        // background-color: green;
+        animation-duration: 2s;
+        animation-name: fadein;
+      }
+
+      @keyframes fadein {
+        0%    { opacity: 0; }
+        50%   { opacity: 0; }
+        100%  { opacity: 100; }
+      }
+
+    }
+
+    h2 {
+      @include Titleh1;
+      font-size: 50px;
+
+      @include iphone12Pro {font-size: 50px; margin-top: 10px;}
+      @include iphone5SE {font-size: 45px; margin-top: 30px;}
+    }
+
+    .dot_container {
+      // background-color: black;
+      margin: 0 auto;
+      padding-top: 0%;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    
+      .dot0_container {
+        // background-color: grey;
+        margin: 0 auto;
+        #dot0 {
+          height: 300px;
+          width: 300px;
+          border-radius: 50%;
+          display: inline-block;
+          // background-color: none;
+          border: 15px black solid;
+
+          @include iphone12Pro {
+            height: 235px; 
+            width: 235px;
+            border: 11px black solid;
+          }
+
+          @include iphone5SE {
+            height: 200px; 
+            width: 200px;
+            border: 10px black solid;
+          }
+        }
+      }
+    
+      .dot {
+        // background-color: aqua;
+        height: 35px;
+        width: 35px;
+        border-radius: 50%;
+        display: inline-block;
+        cursor: pointer;
+
+      }
+    
+        .dot1_container {
+          // background-color: darkblue;
+
+          margin: 0 auto;
+          #dot1 {
+            background-color: $primary3;
+            margin: 0 auto;
+          }
+        }
+
+        .dot2_container {
+          // background-color: darkgreen;
+          margin: 0 auto;
+          @include iphone12Pro {margin: 0 auto 0 199px;}
+          @include iphoneSE {margin: 0 auto 0 192px;}
+          @include iphone5SE {margin: 0 auto 0 173px;}
+
+          #dot2 {
+            background-color: $secondary3;
+            margin: 0 auto;
+          }
+        }
+
+        .dot3_container {
+          // background-color: darkred;
+          margin: 0 auto;
+          @include iphone12Pro {margin: 0 auto 0px 156px;}
+          @include iphoneSE {margin: 0 auto 0px 148px;}
+          @include iphone5SE {margin: 0 auto 0px 110px;}
+
+          #dot3 {
+            background-color: $tertiary3;
+            margin: 0 auto;
+          }
+        }
+    }
+
+    .name_container {
+      // background-color: lightcoral;
+      width:fit-content;
+      margin: 0 auto;
+
+      @include Titleh1;
+
+      @include iphone12Pro {margin-top: -50px;}
+      @include iphone12Pro {margin-top: -60px;}
+
+      .name_text {
+        h1 {
+          font-size: 60px;
+          font-family: $script-font2;
+          // background-color: blue;
+          // animation-delay: 3s;
+          // animation-duration: 4s;
+          // animation-name: fadein;
+          @include iphone12Pro {font-size: 50px;}
+          @include iphone5SE {font-size: 45px;}
+        }
+
+        .fadeEffect {
+
+        }
+
+      }
+
+    }
+
+  }
+
+}
+
