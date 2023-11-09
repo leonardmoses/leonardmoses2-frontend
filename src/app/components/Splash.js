@@ -21,12 +21,9 @@ const Splash = () => {
         <div className={styles.body}>
   
         <header className={styles.header}>
-        
           <div className={styles.directions}>
             <h3>Click a Colored Dot</h3>
           </div>
-  
-  
         </header>
   
         <main className={styles.main}>
@@ -44,9 +41,7 @@ const Splash = () => {
           </div>
   
           <motion.div className={styles.dot_container}>
-  
-  
-  
+
             <div className={styles.dot1_container}>
               
               <Link href="/about">

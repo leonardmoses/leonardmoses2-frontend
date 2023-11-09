@@ -18,9 +18,12 @@ const Navbar = () => {
             </div>
 
             <ul>
-                <li><Link href="/about">About</Link></li>
-                <li><Link href="/portfolio">Portfolio</Link></li>
-                <li><Link href="/resume">Resume</Link></li>
+                <li><Link href="/about">ABOUT</Link></li>
+                <li><Link href="/portfolio">PORTFOLIO</Link></li>
+                <li><Link href="/resume">RESUME</Link></li>
+                <li><Link href="/art">ART</Link></li>
+                <li><Link href="/music">MUSIC</Link></li>
+                <li><Link href="/diy">DIY</Link></li>
             </ul>
         </nav>
      );
