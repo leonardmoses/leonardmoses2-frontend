@@ -1,8 +1,8 @@
 "use client"
 
 import { Roboto } from "next/font/google";
-import "./globals.css";
-import "./Main.scss"
+import "./styles/reset.css";
+import "./Main.module.scss"
 import Navbar from "./components/Navbar"
 import Splash from "./components/Splash"
 import { usePathname } from "next/navigation";

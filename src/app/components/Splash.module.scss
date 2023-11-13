@@ -1,4 +1,4 @@
-@import '../Main.scss' ;
+@import '../Main.module.scss' ;
 
 
 .body {
@@ -97,22 +97,22 @@
   }
 
   .main {
-    background-color: gold;
+    // background-color: gold;
     display: flex;
     flex-wrap: wrap;
     height: 80vh;
 
     .dot_container {
-      background-color: rgb(129, 129, 129);
+      // background-color: rgb(129, 129, 129);
       // padding-top: 0%;
       width: 100%;
       position: relative;
     
       .dot0_container {
-        background-color: rgb(132, 101, 101);
+        // background-color: rgb(132, 101, 101);
         // width: 100%;
-        height: 300px;
-        width: 300px;
+        height: 305px; //needs to be 305px in order to satisfy Splash.js Initial and animate x/y values.
+        width: 305px; //needs to be 305px in order to satisfy Splash.js Initial and animate x/y values.
         left: 50%;
         transform: translate(-50%, 0); 
         position: absolute;
@@ -143,7 +143,7 @@
         cursor: pointer;
         z-index: 2;
 
-        top:50%;
+        // top:50%;
         left:50%;
         transform: translate(-50%, 0); 
         position: absolute;
@@ -158,75 +158,75 @@
         .dot1_container {
           // background-color: darkblue;
 
-          margin: 0 auto;
+        
           #dot1 {
             background-color: $primary3;
-            margin: 0 auto;
+           
           }
         }
 
         .dot2_container {
           // background-color: darkgreen;
-          margin: 0 auto;
+        
           @include iphone12Pro {margin: 0 auto 0 199px;}
           @include iphoneSE {margin: 0 auto 0 192px;}
           @include iphone5SE {margin: 0 auto 0 173px;}
 
           #dot2 {
             background-color: $secondary3;
-            margin: 0 auto;
+          
           }
         }
 
         .dot3_container {
           // background-color: darkred;
-          margin: 0 auto;
+          
           @include iphone12Pro {margin: 0 auto 0px 156px;}
           @include iphoneSE {margin: 0 auto 0px 148px;}
           @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot3 {
             background-color: $tertiary3;
-            margin: 0 auto;
+         
           }
         }
 
         .dot4_container {
           // background-color: darkred;
-          margin: 0 auto;
+          
           @include iphone12Pro {margin: 0 auto 0px 156px;}
           @include iphoneSE {margin: 0 auto 0px 148px;}
           @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot4 {
             background-color: $tertiary4;
-            margin: 0 auto;
+         
           }
         }
 
         .dot5_container {
           // background-color: darkred;
-          margin: 0 auto;
+        
           @include iphone12Pro {margin: 0 auto 0px 156px;}
           @include iphoneSE {margin: 0 auto 0px 148px;}
           @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot5 {
             background-color: $primary4;
-            margin: 0 auto;
+            
           }
         }
 
         .dot6_container {
           // background-color: darkred;
-          margin: 0 auto;
+          
           @include iphone12Pro {margin: 0 auto 0px 156px;}
           @include iphoneSE {margin: 0 auto 0px 148px;}
           @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot6 {
             background-color: $secondary4;
-            margin: 0 auto;
+           
           }
         }
          
