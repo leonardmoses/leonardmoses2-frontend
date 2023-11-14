@@ -18,7 +18,7 @@ const Navbar = () => {
             </div>
 
             <ul>
-                <li><Link href="/about">ABOUT</Link></li>
+                <li><Link href="/me">ME</Link></li>
                 <li><Link href="/portfolio">PORTFOLIO</Link></li>
                 <li><Link href="/resume">RESUME</Link></li>
                 <li><Link href="/art">ART</Link></li>

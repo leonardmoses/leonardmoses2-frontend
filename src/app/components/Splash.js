@@ -61,7 +61,7 @@ const Splash = () => {
                 initial={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 animate={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 transition={{ delay: 0 }}>
-                <Link href="/about">
+                <Link href="/me">
                   <motion.span
                     className={styles.dot}
                     id={styles.dot1}
@@ -78,7 +78,7 @@ const Splash = () => {
                     variants={buttonvariants}
                     whileHover="hover"
                     type="button"
-                    onHoverStart={() => setButton1(<h2>About</h2>)}
+                    onHoverStart={() => setButton1(<h2>Me</h2>)}
                     onHoverEnd={() => setButton1("")}></motion.span>
                 </Link>
               </motion.div>
@@ -88,7 +88,7 @@ const Splash = () => {
                 initial={{ x: -18, y: 115 }} //default is x:-18 y: 150. To compensate for transition: none;
                 animate={{ x: -18, y: 115 }} //default is x:-18 y: 150. To compensate for transition: none;
                 transition={{ delay: 0 }}>
-                <Link href="/about">
+                <Link href="/me">
                   <motion.span
                     className={styles.dot}
                     id={styles.dot1}
@@ -105,7 +105,7 @@ const Splash = () => {
                     variants={buttonvariants}
                     whileHover="hover"
                     type="button"
-                    onHoverStart={() => setButton1(<h2>About</h2>)}
+                    onHoverStart={() => setButton1(<h2>Me</h2>)}
                     onHoverEnd={() => setButton1("")}></motion.span>
                 </Link>
               </motion.div>
