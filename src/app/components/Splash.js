@@ -225,7 +225,7 @@ const Splash = () => {
                 initial={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 animate={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 transition={{ delay: 0 }}>
-                <Link href="/music">
+                <Link href="/art">
                   <motion.span
                     className={styles.dot}
                     id={styles.dot4}
@@ -279,7 +279,7 @@ const Splash = () => {
                 initial={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 animate={{ x: -18, y: 150 }} //default is x:-18 y: 150. To compensate for transition: none;
                 transition={{ delay: 0 }}>
-                <Link href="/art">
+                <Link href="/music">
                   <motion.span
                     className={styles.dot}
                     id={styles.dot5}
