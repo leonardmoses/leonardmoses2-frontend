@@ -1,11 +1,13 @@
 @import "../Main.module.scss";
 
 nav {
-    background-color: rgb(207, 207, 228);
+    // background-color: lightblue;
 
-    .Logo {
+    .LogoDiv {
         width: 150px;
         height: 150px;
+        margin: 0 auto;
+        padding: 1% 0;
 
         img {
             width: 100%;
@@ -15,4 +17,23 @@ nav {
         }
         
     }
+
+    .NavLinks {
+        // background-color: coral;
+        display: flex;
+        justify-content:center;
+        
+        li {
+            // background-color: lightgreen;
+            padding: 0 1%;
+        }
+    }
+
+    .NavBottomBorder {
+        width: 70vw;
+        padding-top: 5px;
+        margin: 0 auto;
+        border-bottom: solid 2px $complementary1;
+    }
+
 }

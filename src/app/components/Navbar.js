@@ -7,17 +7,17 @@ import "./Navbar.scss"
 const Navbar = () => {
     return ( 
         <nav>
-            <div className="Logo">
-            <Link href="/">
-                <Image 
-                    className="Logo"
-                    src={Logo}
-                    alt="Logo"
-                />
+            <div className="LogoDiv">
+                <Link href="/">
+                    <Image 
+                        className="Logo"
+                        src={Logo}
+                        alt="Logo"
+                    />
                 </Link>
             </div>
-
-            <ul>
+            
+            <ul className="NavLinks">
                 <li><Link href="/me">ME</Link></li>
                 <li><Link href="/portfolio">PORTFOLIO</Link></li>
                 <li><Link href="/resume">RESUME</Link></li>
@@ -25,6 +25,7 @@ const Navbar = () => {
                 <li><Link href="/music">MUSIC</Link></li>
                 <li><Link href="/diy">DIY</Link></li>
             </ul>
+            <div className="NavBottomBorder"></div>
         </nav>
      );
 }

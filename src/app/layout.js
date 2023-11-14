@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
 
   return (
     <html lang="en">
-      <body className="">
+      <body className="Body">
       {isLoading && isHome ? (
         <Splash/>
       ) : (
