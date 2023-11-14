@@ -65,8 +65,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot1}
-                    initial={{ x: 0, y: 0 }} //will cause transform: none. and override css/scss file
-                    animate={{ x: 0, y: -190 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: -1000, opacity:0 }} //will cause transform: none. and override css/scss file
+                    animate={{ x: 0, y: -190, opacity:1 }} //will cause transform: none. and override css/scss file
                     size={20}
                     transition={{
                       delay: 1,
@@ -92,8 +92,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot1}
-                    initial={{ x: 0, y: 0 }} //will cause transform: none. and override css/scss file
-                    animate={{ x: 0, y: -145 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: -600, opacity: 0 }} //will cause transform: none. and override css/scss file
+                    animate={{ x: 0, y: -145, opacity: 1 }} //will cause transform: none. and override css/scss file
                     size={20}
                     transition={{
                       delay: 1,
@@ -121,8 +121,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot2}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: -165, y: 100 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: -1100, y: 800, opacity: 0 }}
+                    animate={{ x: -165, y: 100, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
                       delay: 1,
                       type: "spring",
@@ -147,8 +147,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot2}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: -125, y: 80 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: -700, y: 600, opacity: 0 }}
+                    animate={{ x: -125, y: 80, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
                       delay: 1,
                       type: "spring",
@@ -175,8 +175,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot3}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 165, y: 100 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 1100, y: 800, opacity: 0 }}
+                    animate={{ x: 165, y: 100, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
                       delay: 1,
                       type: "spring",
@@ -201,8 +201,8 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot3}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 120, y: 80 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 700, y: 600, opacity: 0 }}
+                    animate={{ x: 120, y: 80, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
                       delay: 1,
                       type: "spring",
@@ -229,10 +229,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot4}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: -165, y: -100 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: -165, y: -100, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -255,10 +255,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot4}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: -125, y: -80 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: -125, y: -80, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -283,10 +283,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot5}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 165, y: -100 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: 165, y: -100, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -309,10 +309,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot5}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 120, y: -80 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: 120, y: -80, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -337,10 +337,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot6}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 0, y: 190 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: 0, y: 190, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -363,10 +363,10 @@ const Splash = () => {
                   <motion.span
                     className={styles.dot}
                     id={styles.dot6}
-                    initial={{ x: 0, y: 0 }}
-                    animate={{ x: 0, y: 145 }} //will cause transform: none. and override css/scss file
+                    initial={{ x: 0, y: 0, opacity: 0 }}
+                    animate={{ x: 0, y: 145, opacity: 1 }} //will cause transform: none. and override css/scss file
                     transition={{
-                      delay: 1,
+                      delay: 2,
                       type: "spring",
                       stiffness: 100,
                       // mass: 0.7 ,
@@ -398,17 +398,7 @@ const Splash = () => {
             </motion.div>
             <div className={styles.fadeEffect}></div>
           </div>
-
-          {/*
-          <Link href='/Portfolio'><motion.button
-            whileHover={{ 
-              scale: 1.1,
-              textShadow: "0px 0px 8px rgb(255, 255, 255)",
-              boxShadow: "0px 0px 8px rgb(255, 255, 255)"
-            
-            }}
-          >Portfolio</motion.button></Link>
-          */}
+    
         </main>
       </div>
     </div>

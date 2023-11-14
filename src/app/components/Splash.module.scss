@@ -261,6 +261,9 @@
     @include iphoneSE {top: 95%;}
     @include iphone5SE {top: 105%;}
 
+    @include Height1000{top: 90%;}
+    @include Height750{top: 100%;}
+
 
     .name_text {
       h1 {
