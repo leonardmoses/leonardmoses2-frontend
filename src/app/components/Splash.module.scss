@@ -60,7 +60,7 @@
 
 
   .title_container {
-    // background-color: gold;
+    // background-color: rgb(190, 178, 113);
     margin: 0 auto;
     padding: 20px 0 50px 0 ;
     height: 50px;
@@ -98,15 +98,15 @@
 
   .main {
     // background-color: gold;
-    display: flex;
-    flex-wrap: wrap;
+    position: relative;
     height: 80vh;
 
     .dot_container {
       // background-color: rgb(129, 129, 129);
-      // padding-top: 0%;
+      padding-top: 50px;
       width: 100%;
-      position: relative;
+      position: absolute;
+
     
       .dot0_container {
         // background-color: rgb(132, 101, 101);
@@ -120,14 +120,20 @@
         border: 15px black solid;
 
         @include iphone12Pro {
-          height: 235px; 
-          width: 235px;
+          height: 305px; 
+          width: 305px;
+          border: 11px black solid;
+        }
+
+        @include iphoneSE {
+          height: 230px; 
+          width: 230px;
           border: 11px black solid;
         }
 
         @include iphone5SE {
-          height: 200px; 
-          width: 200px;
+          height: 230px; 
+          width: 230px;
           border: 10px black solid;
         }
 
@@ -135,68 +141,78 @@
 
     
       .dot {
-        // background-color: aqua;
-        // display: inline-block;
+        background-color: aqua;
         height: 35px;
         width: 35px;
         border-radius: 50%;
         cursor: pointer;
-        z-index: 2;
-
+        z-index: 1;
+        
         // top:50%;
         left:50%;
         transform: translate(-50%, 0); 
         position: absolute;
         
-        // @include Res700{left: 48%; top:45%};
-        // @include Res700{left: 47.5%; top:45%};
-        // @include iphone12Pro{left: 45%; top:43%};
-        // @include iphoneSE{left: 45%; top:43%};
-        // @include iphone5SE{left: 45%; top:43%};
+        // @include Res700{height: 33px;width: 33px;};
+        // @include Res500{height: 30px;width: 30px;};
+        @include iphone12Pro{
+          height: 27px;
+          width: 27px;
+          left: 52%;
+          // margin-top: -30px;
+        };
+
+        @include iphoneSE{
+          height: 26px;
+          width: 26px;
+          // margin-top: -30px;
+
+        };
+
+        @include iphone5SE{
+          height: 24px;
+          width: 24px;
+          // margin-top: -45px;
+        };
+        
       }
     
         .dot1_container {
           // background-color: darkblue;
 
-        
           #dot1 {
             background-color: $primary3;
-           
+            // z-index: 11;
           }
         }
 
         .dot2_container {
           // background-color: darkgreen;
         
-          @include iphone12Pro {margin: 0 auto 0 199px;}
-          @include iphoneSE {margin: 0 auto 0 192px;}
-          @include iphone5SE {margin: 0 auto 0 173px;}
+
 
           #dot2 {
             background-color: $secondary3;
-          
+            // z-index: 12;
           }
         }
 
         .dot3_container {
           // background-color: darkred;
           
-          @include iphone12Pro {margin: 0 auto 0px 156px;}
-          @include iphoneSE {margin: 0 auto 0px 148px;}
-          @include iphone5SE {margin: 0 auto 0px 110px;}
+
 
           #dot3 {
             background-color: $tertiary3;
-         
+            // z-index: 13;
+
           }
         }
 
         .dot4_container {
           // background-color: darkred;
           
-          @include iphone12Pro {margin: 0 auto 0px 156px;}
-          @include iphoneSE {margin: 0 auto 0px 148px;}
-          @include iphone5SE {margin: 0 auto 0px 110px;}
+
 
           #dot4 {
             background-color: $tertiary4;
@@ -206,10 +222,6 @@
 
         .dot5_container {
           // background-color: darkred;
-        
-          @include iphone12Pro {margin: 0 auto 0px 156px;}
-          @include iphoneSE {margin: 0 auto 0px 148px;}
-          @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot5 {
             background-color: $primary4;
@@ -219,10 +231,6 @@
 
         .dot6_container {
           // background-color: darkred;
-          
-          @include iphone12Pro {margin: 0 auto 0px 156px;}
-          @include iphoneSE {margin: 0 auto 0px 148px;}
-          @include iphone5SE {margin: 0 auto 0px 110px;}
 
           #dot6 {
             background-color: $secondary4;
@@ -238,14 +246,21 @@
 
   .name_container {
     // background-color: lightcoral;
-    padding-top: 20%;
-    width:fit-content;
+    width: 100%;
     margin: 0 auto;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, 0);
 
     @include Titleh1;
 
-    @include iphone12Pro {margin-top: -50px;}
-    @include iphone12Pro {margin-top: -60px;}
+    @include Res700 {top: 95%;}
+    @include Res500 {top: 95%;}
+    @include iphone12Pro {top: 95%;}
+    @include iphoneSE {top: 95%;}
+    @include iphone5SE {top: 105%;}
+
 
     .name_text {
       h1 {
@@ -256,7 +271,8 @@
         // animation-duration: 4s;
         // animation-name: fadein;
         @include iphone12Pro {font-size: 50px;}
-        @include iphone5SE {font-size: 45px;}
+        @include iphoneSE {font-size: 45px;}
+        @include iphone5SE {font-size: 40px;}
       }
 
       .fadeEffect {
