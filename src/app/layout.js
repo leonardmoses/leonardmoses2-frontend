@@ -8,6 +8,7 @@ import Splash from "./components/Splash"
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 
 // const roboto = Roboto({ subsets: ["latin"], weight: ["100", "300", "400", "500" , "700" ,"900" ]});
@@ -36,6 +37,7 @@ export default function RootLayout({ children }) {
         <>
           <Navbar />
           {children}
+          <Footer />
         </>
       )}
 
