@@ -5,7 +5,7 @@ import Headshot from "../static/headshot.jpg";
 
 const About = () => {
   return (
-    <div className={styles.About}>
+    <main className={styles.About}>
       <div className={styles.NameDiv}>
         <h2>Leonard Moses</h2>
       </div>
@@ -26,7 +26,7 @@ const About = () => {
         <div className={styles.BrandStatement}>
           <h2>My Brand Statement</h2>
           <p>
-            Passionate Software Engineer and determined learner with a belief
+            Passionate Software Engineer and determined learner with a belief 
             that anything can be achieved, no matter how complex. We come into
             this world with zero information and we learn everything despite
             starting with a blank slate. This is the essence of what we do –
@@ -102,7 +102,7 @@ const About = () => {
           excited by what future projects I may take on!
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

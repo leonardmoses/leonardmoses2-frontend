@@ -1,22 +1,9 @@
-@import '../Main.module.scss' ;
+@import '../Main.scss' ;
 
 
 .body {
-  --background: linear-gradient(white, $complementary1);
-  height: 100vh;
-  background-image: linear-gradient(white, $complementary1);
-  background-attachment: fixed;
-  // background-repeat: no-repeat;
-
-/* To prevent no show for framer-motion on hover for dots (inherited from Type.scss)*/
-  h1 {
-    -webkit-text-fill-color: unset; 
-    -moz-text-fill-color: unset;
-    font-size: 45px;
-  }
 
   // Directions that fade from left to right. Done with basic CSS.
-
   .header {
     // padding: 20px auto 0 auto;
     margin: 0 auto;
@@ -88,6 +75,7 @@
 
   }
 
+  
   h2 {
     @include Titleh1;
     font-size: 50px;
@@ -276,10 +264,6 @@
         @include iphone12Pro {font-size: 50px;}
         @include iphoneSE {font-size: 45px;}
         @include iphone5SE {font-size: 40px;}
-      }
-
-      .fadeEffect {
-
       }
 
     }

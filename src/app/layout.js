@@ -2,7 +2,7 @@
 
 import { Roboto } from "next/font/google";
 import "./styles/reset.css";
-import "./Main.module.scss"
+import "./Main.scss"
 import Navbar from "./components/Navbar"
 import Splash from "./components/Splash"
 import { usePathname } from "next/navigation";

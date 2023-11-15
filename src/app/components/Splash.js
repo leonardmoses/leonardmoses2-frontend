@@ -28,7 +28,7 @@ const Splash = () => {
           </div>
         </header>
 
-        <main className={styles.main}>
+        <div className={styles.main}>
           <div className={styles.title_container}>
             <motion.h1
               // initial={{opacity:0}}
@@ -399,7 +399,7 @@ const Splash = () => {
             <div className={styles.fadeEffect}></div>
           </div>
     
-        </main>
+        </div>
       </div>
     </div>
   );
