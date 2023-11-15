@@ -1,18 +1,18 @@
 import Link from "next/link";
-import "./Me.scss";
+import styles from "./Me.module.scss";
 import Image from "next/image";
 import Headshot from "../static/headshot.jpg";
 
 const About = () => {
   return (
-    <div className="About">
-      <div className="NameDiv">
+    <div className={styles.About}>
+      <div className={styles.NameDiv}>
         <h2>Leonard Moses</h2>
       </div>
 
-      <div className="HeadshotDiv">
+      <div className={styles.HeadshotDiv}>
         <Image src={Headshot} alt="Headshot of Leonard Moses" />
-        <div className="ContactLinks">
+        <div className={styles.ContactLinks}>
           <Link href="mailto:leonardsamuelmoses@gmail.com">
             <h4>email: leonardsamuelmoses@gmail.com</h4>
           </Link>
@@ -22,8 +22,8 @@ const About = () => {
         </div>
       </div>
 
-      <div className="TextContent">
-        <div className="BrandStatement">
+      <div className={styles.TextContent}>
+        <div className={styles.BrandStatement}>
           <h2>My Brand Statement</h2>
           <p>
             Passionate Software Engineer and determined learner with a belief
@@ -35,7 +35,7 @@ const About = () => {
             development team.
           </p>
         </div>
-        <div className="AboutWriteUp"></div>
+        <div className={styles.AboutWriteUp}></div>
         <h2>Life | Passion | Hobbies</h2>
         <p>
           Known for creative problem solving, my first creative love was drawing

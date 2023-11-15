@@ -18,12 +18,12 @@ const Navbar = () => {
             </div>
             
             <ul className="NavLinks">
-                <li><Link href="/me">ME</Link></li>
-                <li><Link href="/portfolio">PORTFOLIO</Link></li>
-                <li><Link href="/resume">RESUME</Link></li>
-                <li><Link href="/art">ART</Link></li>
-                <li><Link href="/music">MUSIC</Link></li>
-                <li><Link href="/diy">DIY</Link></li>
+                <li><Link href="/me">Me</Link></li>
+                <li><Link href="/portfolio">Portfolio</Link></li>
+                <li><Link href="/resume">Resume</Link></li>
+                <li><Link href="/art">Art</Link></li>
+                <li><Link href="/music">Music</Link></li>
+                <li><Link href="/diy">Diy</Link></li>
             </ul>
             <div className="NavBottomBorder"></div>
         </nav>
