@@ -38,3 +38,7 @@
 @mixin Height750 {
     @media only screen and (max-height: 750px ) { @content; }
 }
+
+@mixin Height630 {
+    @media only screen and (max-height: 630px) and (min-width: 500px) {@content;}
+}

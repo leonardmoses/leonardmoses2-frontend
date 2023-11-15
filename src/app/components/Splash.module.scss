@@ -58,7 +58,7 @@
     @include iphone12Pro {padding-top: 0px;}
     @include iphone5SE {margin-top: -30px;}
 
-    h1{
+    h1 {
       font-size: 50px;
       // font-family: $title-font2;
       text-align: center;
@@ -73,16 +73,17 @@
       100%  { opacity: 100; }
     }
 
+    h2 {
+      @include Titleh1;
+      font-size: 4rem;
+  
+      @include iphone12Pro {font-size: 4rem;}
+      @include iphone5SE {font-size: 3rem;}
+    }
   }
 
   
-  h2 {
-    @include Titleh1;
-    font-size: 50px;
 
-    @include iphone12Pro {font-size: 50px; margin-top: 10px;}
-    @include iphone5SE {font-size: 45px; margin-top: 30px;}
-  }
 
   .main {
     // background-color: gold;
@@ -237,7 +238,7 @@
     width: 100%;
     margin: 0 auto;
     position: absolute;
-    top: 70%;
+    top: 90%;
     left: 50%;
     transform: translate(-50%, 0);
 
@@ -251,7 +252,7 @@
 
     @include Height1000{top: 90%;}
     @include Height750{top: 100%;}
-
+    @include Height630{opacity: 0;}
 
     .name_text {
       h1 {
@@ -265,6 +266,7 @@
         @include iphoneSE {font-size: 45px;}
         @include iphone5SE {font-size: 40px;}
       }
+      
 
     }
 

@@ -20,7 +20,7 @@ const Splash = () => {
   const iphone5SE = useMediaQuery({ minWidth: 320 });
 
   return (
-    <div className={styles.container}>
+
       <div className={styles.body}>
         <header className={styles.header}>
           <div className={styles.directions}>
@@ -28,9 +28,9 @@ const Splash = () => {
           </div>
         </header>
 
-        <div className={styles.main}>
+        <main className={styles.main}>
           <div className={styles.title_container}>
-            <motion.h1
+            <motion.h2
               // initial={{opacity:0}}
               // whileHover={{
               //   opacity:1,
@@ -38,7 +38,7 @@ const Splash = () => {
               // }}
               style={{ background: color }}>
               {button1}
-            </motion.h1>
+            </motion.h2>
           </div>
 
           <motion.div className={styles.dot_container}>
@@ -399,9 +399,9 @@ const Splash = () => {
             <div className={styles.fadeEffect}></div>
           </div>
     
-        </div>
+        </main>
       </div>
-    </div>
+
   );
 };
 
