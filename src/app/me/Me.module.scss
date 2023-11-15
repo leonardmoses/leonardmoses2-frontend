@@ -1,17 +1,10 @@
 @import "../Main.scss";
 
 .About {
-
+  
   .NameDiv {
     width: 100%;
     // background-color: blue;
-
-    h2 {
-      @include Titleh1;
-      font-size: 40px;
-      margin: 0 auto;
-      padding: 25px 0;
-    }
   }
 
   .HeadshotDiv {
@@ -45,15 +38,15 @@
     // background-color: coral;
     margin: 0 auto;
     padding-top: 50px;
-    padding-bottom: 100px;
-    width: 80%;
+    padding-bottom: 20px;
+    width: 100%;
     
     p {
       // background-color: seagreen;
       margin-bottom: 15px;
       color: $primary5;
-
     }
+
     .BranchStatement {
     }
 

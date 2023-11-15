@@ -1,34 +1,35 @@
 @import "../Main.scss";
 
-.FooterMain {
+main {
+  .FooterMain {
     // background-color: coral;
-    width: 70%;
-    margin: 20px auto 0 auto;
+    width: 80%;
+    margin: 0 auto;
     padding: 0 0 20px 0;
 
-    @include Res500 {width: 80%;}
-    @include iphone12Pro {width: 85%;}
+    @include Res500 {
+      width: 80%;
+    }
+    @include iphone12Pro {
+      width: 85%;
+    }
 
     .Links {
-        // background-color: lightblue;
-        padding: 0 0 20px 0;
-        width: max-content;
-        margin: 0 auto;
+    //   background-color: lightblue;
+      padding-top: 5px;
+      width: max-content;
+      margin: 0 auto;
 
-        ul {
-            // background-color: lightgreen;
-            width: max-content;
+      ul {
 
-            li {
-                // background-color: lightskyblue;
-                width: max-content;
-                display: inline;
-                padding: 0 20px;
-
-                // :link , :visited{
-                //     color: $primary4;
-                // }
-            }
+        li {
+          // background-color: lightskyblue;
+          width: max-content;
+          display: inline;
+          justify-content: space-between;
+          padding: 0 30px;
         }
+      }
     }
+  }
 }

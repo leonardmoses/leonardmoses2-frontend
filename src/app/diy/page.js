@@ -1,9 +1,13 @@
+import styles from "./Diy.module.scss";
+
 const Diy = () => {
-    return ( 
-        <>
-            <h1>DIY Page</h1>
-        </>
-     );
-}
- 
+  return (
+    <main>
+      <div className="MainContent">
+        <h1>DIY Page</h1>
+      </div>
+    </main>
+  );
+};
+
 export default Diy;

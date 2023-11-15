@@ -1,7 +1,6 @@
 @import "../Main.scss";
 
-nav {
-    // background-color: lightblue;
+main {
 
     .LogoDiv {
         width: 150px;
@@ -23,15 +22,11 @@ nav {
         display: flex;
         justify-content:center;
         
-        li {
-            // background-color: lightgreen;
-            padding: 0 1%;
-            font-size: 16px;
-        }
+
     }
 
     .NavBottomBorder {
-        width: 70vw;
+        width: 80%;
         padding-top: 5px;
         margin: 0 auto;
         border-bottom: solid 2px $complementary1;

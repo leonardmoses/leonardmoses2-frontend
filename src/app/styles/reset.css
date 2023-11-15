@@ -50,3 +50,7 @@ table {
 a {
 	text-decoration: unset;
 }
+
+html {
+	font-size: 10px;
+}

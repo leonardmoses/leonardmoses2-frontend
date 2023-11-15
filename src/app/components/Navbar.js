@@ -2,22 +2,22 @@ import Link from "next/link";
 import Image from "next/image"
 import Logo from "../static/Logo.png"
 
-import "./Navbar.scss"
+import styles from "./Navbar.module.scss"
 
 const Navbar = () => {
     return ( 
-        <nav>
-            <div className="LogoDiv">
+        <main>
+            <div className={styles.LogoDiv}>
                 <Link href="/">
                     <Image 
-                        className="Logo"
+                        className={styles.Logo}
                         src={Logo}
                         alt="Logo"
                     />
                 </Link>
             </div>
             
-            <ul className="NavLinks">
+            <ul className={styles.NavLinks}>
                 <li><Link href="/me">Me</Link></li>
                 <li><Link href="/portfolio">Portfolio</Link></li>
                 <li><Link href="/resume">Resume</Link></li>
@@ -25,8 +25,8 @@ const Navbar = () => {
                 <li><Link href="/music">Music</Link></li>
                 <li><Link href="/diy">Diy</Link></li>
             </ul>
-            <div className="NavBottomBorder"></div>
-        </nav>
+            <div className={styles.NavBottomBorder}></div>
+        </main>
      );
 }
  

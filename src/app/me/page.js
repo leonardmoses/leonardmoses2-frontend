@@ -6,6 +6,7 @@ import Headshot from "../static/headshot.jpg";
 const About = () => {
   return (
     <main className={styles.About}>
+      <div className="MainContent">
       <div className={styles.NameDiv}>
         <h2>Leonard Moses</h2>
       </div>
@@ -24,7 +25,7 @@ const About = () => {
 
       <div className={styles.TextContent}>
         <div className={styles.BrandStatement}>
-          <h2>My Brand Statement</h2>
+          <h3>My Brand Statement</h3>
           <p>
             Passionate Software Engineer and determined learner with a belief 
             that anything can be achieved, no matter how complex. We come into
@@ -36,7 +37,7 @@ const About = () => {
           </p>
         </div>
         <div className={styles.AboutWriteUp}></div>
-        <h2>Life | Passion | Hobbies</h2>
+        <h3>Life | Passion | Hobbies</h3>
         <p>
           Known for creative problem solving, my first creative love was drawing
           at age six. As a child you might have also found me sitting for hours
@@ -101,6 +102,7 @@ const About = () => {
           developer MO. I have no fear of the complexity of an app and I am very
           excited by what future projects I may take on!
         </p>
+      </div>
       </div>
     </main>
   );
