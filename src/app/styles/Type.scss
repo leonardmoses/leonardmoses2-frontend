@@ -64,8 +64,11 @@ $body-font: "Times New Roman", Times, serif;
       font-size: 3rem;
     }
     p {
+      // background-color: seagreen;
       font-family: $body-font;
       font-size: 1.8rem;
+      margin-bottom: 15px;
+      color: $primary5;
     }
     li {
       // background-color: lightgreen;

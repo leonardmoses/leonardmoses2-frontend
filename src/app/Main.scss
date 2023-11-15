@@ -1,26 +1,31 @@
-@import './styles/Type.scss' ;
-@import './styles/Variables.scss';
-@import './styles/Mixins.scss';
-@import './styles/Media.scss';
+@import "./styles/Type.scss";
+@import "./styles/Variables.scss";
+@import "./styles/Mixins.scss";
+@import "./styles/Media.scss";
 
 .Body {
-    --background: linear-gradient(white, $complementary1);
-    height: 100vh;
-    background-image: linear-gradient(white, $complementary1);
-    background-attachment: fixed;
-    // background-repeat: no-repeat;
-    
-    overflow: auto;
+  --background: linear-gradient(white, $complementary1);
+  height: 100vh;
+  background-image: linear-gradient(white, $complementary1);
+  background-attachment: fixed;
+  // background-repeat: no-repeat;
 
-    main {
-        // background-color: Blue;
-        width: 90vw;
-        margin: 0 auto;
+  overflow: auto;
 
-        .MainContent {
-            // background-color: yellow;
-            width: 80%;
-            margin: 0 auto;
-        }
+  main {
+    // background-color: Blue;
+    width: 90vw;
+    margin: 0 auto;
+
+    .MainContent {
+      // background-color: yellow;
+      width: 80%;
+      margin: 0 auto;
+
+      .PageIntro {
+        // background-color: rgb(160, 221, 160);
+        padding-bottom: 20px;
+      }
     }
+  }
 }

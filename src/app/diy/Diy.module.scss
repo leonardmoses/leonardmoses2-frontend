@@ -1,1 +1,12 @@
-@import "../Main.scss"
+@import "../Main.scss";
+
+
+.Wallmount {
+  // background-color: coral;
+  padding: 20px 0;
+  border-top: 1px solid $primary3;
+
+  .WallmountWriteUp {
+    width: 50%;
+  }
+}

@@ -1,11 +1,6 @@
 @import "../Main.scss";
 
 .About {
-  
-  .NameDiv {
-    width: 100%;
-    // background-color: blue;
-  }
 
   .HeadshotDiv {
     margin: 0 auto;
@@ -20,6 +15,7 @@
       border: 5px solid black;
       border-radius: 15px;
     }
+    
     .ContactLinks {
       // background-color: green;
       width: fit-content;
@@ -40,12 +36,6 @@
     padding-top: 50px;
     padding-bottom: 20px;
     width: 100%;
-    
-    p {
-      // background-color: seagreen;
-      margin-bottom: 15px;
-      color: $primary5;
-    }
 
     .BranchStatement {
     }
