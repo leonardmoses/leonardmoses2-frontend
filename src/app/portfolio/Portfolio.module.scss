@@ -1,2 +1,11 @@
 @import "../Main.scss";
 
+
+.DesignPortfolioLink {
+    // background-color: gold;
+    float: right;
+    @include Button($FontSize:18px);
+    @include Res900{font-size: 16px};
+    @include Res700{font-size: 13px};
+    @include Res500{font-size: 14px};
+}

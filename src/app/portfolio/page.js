@@ -1,5 +1,6 @@
 import PageTitle from "../components/PageTitle";
 import styles from "./Portfolio.module.scss";
+import Link from "next/link";
 
 const Portfolio = () => {
   return (
@@ -11,6 +12,10 @@ const Portfolio = () => {
 
       <div className="MainContent">
         <PageTitle title="Portfolio" />
+
+        <div>
+          <Link href="/portfolio/design" className={styles.DesignPortfolioLink}>Design Portfolio</Link>
+        </div>
 
         <h2>This is an h2</h2>
         <h3>This is an h3</h3>
