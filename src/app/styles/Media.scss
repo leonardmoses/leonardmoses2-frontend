@@ -14,6 +14,10 @@
     @media only screen and (max-width: 700px ) { @content; }
 }
 
+@mixin Res600 {
+    @media only screen and (max-width: 600px ) { @content; }
+}
+
 @mixin Res500 {
     @media only screen and (max-width: 500px ) { @content; }
 }

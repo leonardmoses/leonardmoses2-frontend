@@ -20,9 +20,19 @@ main {
     .NavLinks {
         // background-color: coral;
         display: flex;
+        flex-wrap: wrap;
         justify-content:center;
-        
+        margin: 0 auto;
+        padding-top: 10px;
 
+        @include iphone12Pro {width: 80%; justify-content: space-between;}
+        
+        li {
+            @include iphone12Pro {
+                width: 30%;
+                padding-top: 5px;
+            }
+        }
     }
 
     .NavBottomBorder {

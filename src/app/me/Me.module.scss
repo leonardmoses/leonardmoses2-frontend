@@ -14,6 +14,13 @@
       max-height: 500px;
       border: 5px solid black;
       border-radius: 15px;
+
+      @include Res700 {width: 400px; height: 400px;}
+      @include Res600 {width: 350px; height: 350px;}
+      @include Res500 {width: 250px; height: 250px;}
+      @include iphoneSE {width: 220px; height: 220px;}
+      @include iphone5SE {width: 220px; height: 220px;}
+
     }
     
     .ContactLinks {
@@ -21,11 +28,18 @@
       width: fit-content;
       display: flex;
       margin: 0 auto;
+      
+      @include Res700 {display: unset;}
+      
 
       h4 {
+        // background-color: blue;
         padding: 7px 20px 12px 20px;
         cursor: pointer;
         color: $primary2;
+        @include Res700 {font-size: 1.7rem; padding: 0 0 10px 0; width: 100%;}
+        @include Res600 {font-size: 1.4rem;}
+        @include iphoneSE {font-size: 1.2rem;}
       }
     }
   }
