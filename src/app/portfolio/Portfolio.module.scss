@@ -1,11 +1,145 @@
 @import "../Main.scss";
 
 
-.DesignPortfolioLink {
-    // background-color: gold;
-    float: right;
-    @include Button($FontSize:18px);
-    @include Res900{font-size: 16px};
-    @include Res700{font-size: 13px};
-    @include Res500{font-size: 14px};
+.PortfolioBriefDiv {
+    // background-color: purple;
+    display: flex;
+    margin-bottom: 3%;
+
+    .PortfolioBrief {
+        // background-color: red;
+        padding: 5px 10px;
+        width: 70%;
+
+        h5 {
+            font-size: 2rem;
+            color: $secondary5;
+        };
+    }
+    
+    .DesignNavDiv {
+        width: 30%;
+        position:relative;
+        
+        @include ButtonNav($FontSize:1rem);
+        background-color: $secondary2;
+
+        &:hover {
+            background-color: $secondary3;
+            h5 {color: $secondary1;};
+        }
+        
+        &:active {
+            background-color: $secondary4;
+            h5 {color: $secondary3;};
+        }
+
+        h5 {
+            // background-color: purple;
+            color: $secondary4;
+            width: 100%;
+            margin: 0;
+            font-size: 2rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+            @include Res900{font-size: 16px};
+            @include Res700{font-size: 13px};
+            @include Res500{font-size: 14px};
+
+        };
+    
+    }
+
+}
+
+
+
+.AllProjects {
+    // background-color: blue;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    .ProjectDiv {
+        background-color: rgb(248, 247, 253) ;
+        // border: solid 1px black;
+        border-radius: 8px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 300px;
+        height: 400px;
+        contain: content;
+        box-shadow: 6px 6px 20px -8px $secondary5;
+        position: relative;
+
+        h4 {
+            // background-color: red;
+            color: $secondary3;
+            font-size: 2rem;
+            width: 100%;
+            padding: 10px 0;
+            text-align: center;
+            position: absolute;
+            top: 0;
+        }
+        .ImageDiv {
+            overflow: hidden;
+            height: 300px;
+            position: absolute;
+            top: 50%;
+            transform: translate(0%, -50%);
+
+            img {
+                width: 100%;
+                border: solid 1px $secondary4;
+            }
+        }
+
+        .Git, .Live{
+            // background-color: coral;
+            width: 50%;
+            height: 30px;
+
+            p{
+                font-size: 1.5rem;
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            animation: pulse 8s infinite;
+
+            @include ButtonAction(10px);
+            background-color: $secondary4;
+            padding: 0px 0px;
+            border-radius: 0px;
+            border: 1px solid rgba($secondary5 , 0.2);
+            position: absolute;
+            bottom: 0;
+
+            &:hover {
+                background-color: $secondary2;
+                color: $tertiary4;
+            };
+            &:active {
+                background-color: $secondary1;
+            }
+
+        }
+
+        .Git {
+            left: 0;
+        }
+        .Live {
+            right: 0;
+        }
+
+    }
 }

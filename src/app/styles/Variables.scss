@@ -75,7 +75,30 @@ $blueBlack: #020d2c;
     -moz-text-fill-color: transparent;
 }
 
-@mixin Button($FontSize) {
+@mixin ButtonAction($FontSize) {
+
+    background-color: $primary4;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: $FontSize;
+    border-radius: 7px;
+
+    transition-duration: 0.2s;
+    
+    &:hover {
+        background-color: $primary2;
+        color: $primary4;
+    }
+    &:active {
+        transform: scale(0.97);
+        color: $primary1;
+    }
+}
+
+@mixin ButtonNav($FontSize) {
 
     background-color: $tertiary4;
     border: none;

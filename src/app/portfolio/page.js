@@ -1,37 +1,83 @@
 import PageTitle from "../components/PageTitle";
 import styles from "./Portfolio.module.scss";
 import Link from "next/link";
+import Image from "next/image";
 
 const Portfolio = () => {
+  const portfolioDb = [
+    {
+      name: "Calendar App",
+      live: "https://see-care-cal-1-1.vercel.app/",
+      git: "https://github.com/leonardmoses/ct-eyeCare-calendar-1.1",
+      image: "https://i.imgur.com/oBdsosT.png",
+    },
+    {
+      name: "Marvel Character Comparator",
+      live: "https://marvel-character-comparator-2.vercel.app/",
+      git: "https://github.com/leonardmoses/marvel_character_comparator_2",
+      image: "https://i.imgur.com/ST4SNlv.png",
+    },
+    {
+      name: "Body Movement",
+      live: "https://lennie-project2.herokuapp.com/",
+      git: "https://github.com/leonardmoses/body_movement",
+      image: "https://i.imgur.com/8WIdyIf.png",
+    },
+    {
+      name: "Contrivia",
+      live: "https://contrivia.netlify.app/",
+      git: "https://github.com/leonardmoses/contrivia-frontend",
+      image: "https://imgur.com/MhDaVA6.png",
+    },
+    {
+      name: "Match It",
+      live: "https://match-it-eight.vercel.app/",
+      git: "https://github.com/leonardmoses/MatchIt",
+      image: "https://imgur.com/Vsaeolf.png",
+    },
+  ];
+
   return (
     <main>
-    
       <head>
         <title>Portfolio</title>
       </head>
 
       <div className="MainContent">
-        <PageTitle title="Portfolio" />
+        <PageTitle title="Software Developer Portfolio" />
 
-        <div>
-          <Link href="/portfolio/design" className={styles.DesignPortfolioLink}>Design Portfolio</Link>
+        <div className={styles.PortfolioBriefDiv}>
+          <div className={styles.PortfolioBrief}>
+            <h5>
+              Thank you for taking the time to view my projects. Below is a list
+              of web applications I have developed independently. To view and
+              interact with the app click on "Live Site." If you would like to
+              view the source code click on "GitHub." I have made these mobile
+              responsive to be viewed on any popular device.
+            </h5>
+          </div>
+          <Link href="/portfolio/design" className={styles.DesignNavDiv}>
+            <h5>For design portfolio click here</h5>
+          </Link>
         </div>
 
-        <h2>This is an h2</h2>
-        <h3>This is an h3</h3>
-        <h4>This is an h4</h4>
-        <h5>This is an h5</h5>
-        <h6>This is an h6</h6>
-        <p>
-          Tempor qui consequat nostrud occaecat irure adipisicing minim dolor.
-          Ipsum id laborum occaecat esse nulla do eu id magna magna eiusmod sint
-          exercitation esse. Lorem aliquip ea occaecat cillum ipsum consectetur.
-          Voluptate in nostrud in consectetur fugiat ea ad id ex labore amet
-          eiusmod id.Ullamco deserunt laboris officia est sit in proident
-          voluptate officia eu veniam. Id nisi ea ipsum fugiat exercitation do
-          ut tempor cupidatat Lorem. Consequat excepteur velit aute fugiat nulla
-          commodo consectetur.
-        </p>
+        <h3>My Projects</h3>
+        <div className={styles.AllProjects}>
+          {portfolioDb.map((project, idx) => (
+            <div key={idx} className={styles.ProjectDiv}>
+              <h4>{project.name}</h4>
+              <div className={styles.ImageDiv}>
+                <img src={project.image} alt={project.name} />
+              </div>
+              <a className={styles.Git} href={project.git} target="#">
+                <p>GitHub</p>
+              </a>
+              <a className={styles.Live} href={project.live} target="#2">
+                <p>Live Site</p>
+              </a>
+            </div>
+          ))}
+        </div>
       </div>
     </main>
   );
