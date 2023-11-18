@@ -2,6 +2,55 @@ import PageTitle from "../components/PageTitle";
 import styles from "./Art.module.scss";
 
 const Art = () => {
+
+  const artDb = [
+    {
+      name: "Child Portrait",
+      image: "https://i.imgur.com/vMuZ8nt.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Young Man Face",
+      image: "https://i.imgur.com/CNOBuyS.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Girl Face",
+      image: "https://i.imgur.com/E5rVLQm.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Vegeta",
+      image: "https://i.imgur.com/5T148VY.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Vegeta (Color)",
+      image: "https://i.imgur.com/l4YEgzS.jpg",
+      medium: "iPad brush and layer effects",
+    },
+    {
+      name: "X-Men Trio",
+      image: "https://i.imgur.com/mQLScyR.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Sakura Comic Style",
+      image: "https://i.imgur.com/8QUv0fd.jpg",
+      medium: "iPad brush and layer effects",
+    },
+    {
+      name: "Gokou Super Saiyan Stylized",
+      image: "https://i.imgur.com/d2Oc6gC.jpg",
+      medium: "iPad brush and layer effects",
+    },
+    {
+      name: "Phoenix",
+      image: "https://i.imgur.com/9wsC2Zj.jpg",
+      medium: "Pencil, illustrator, and photoshop",
+    },
+  ]
+
   return (
     <main>
       <head>
@@ -49,6 +98,19 @@ const Art = () => {
         </div>
 
         <h3>My Artwork</h3>
+        <div className={styles.AllArtwork}>
+          {artDb.map((artwork, idx) => (
+            <div key={idx} className={styles.EachArtwork}>
+                <h5 className={styles.title}>{artwork.name}</h5>
+                
+              <div className={styles.imageDiv}>
+                <img src={artwork.image} alt={artwork.name}/>
+              </div>
+
+              <h5 className={styles.medium}>Medium: {artwork.medium}</h5>
+            </div>
+          ))}
+        </div>
       </div>
     </main>
   );
