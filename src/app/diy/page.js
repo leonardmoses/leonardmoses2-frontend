@@ -114,6 +114,7 @@ const Diy = () => {
             <div className={styles.WallmountEachImage}>
               <img src={diyDb[0].image} alt={diyDb.name} />
             </div>
+            
           </div>
         </div>
       </div>
