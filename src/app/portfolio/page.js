@@ -64,7 +64,16 @@ const Portfolio = () => {
             <div key={idx} className={styles.ProjectDiv}>
               <h4>{project.name}</h4>
               <div className={styles.ImageDiv}>
-                <img src={project.image} alt={project.name} />
+                <Image 
+                  src={project.image} 
+                  alt={project.name} 
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  width={1000}
+                  height={1000}
+                />
               </div>
               <a className={styles.Git} href={project.git} target="#">
                 <p>GitHub</p>

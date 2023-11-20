@@ -8,7 +8,7 @@ const Diy = () => {
   const diyDb = [
     {
       name: "WallmountFront",
-      image: "https://i.imgur.com/TafDTgR.jpg",
+      image: "https://imgur.com/TafDTgR.jpg",
     }
   ];
 

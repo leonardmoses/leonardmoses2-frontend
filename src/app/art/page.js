@@ -1,8 +1,8 @@
 import PageTitle from "../components/PageTitle";
 import styles from "./Art.module.scss";
+import Image from "next/image";
 
 const Art = () => {
-
   const artDb = [
     {
       name: "Child Portrait",
@@ -49,11 +49,10 @@ const Art = () => {
       image: "https://i.imgur.com/9wsC2Zj.jpg",
       medium: "Pencil, illustrator, and photoshop",
     },
-  ]
+  ];
 
   return (
     <main>
-
       <div className="MainContent">
         <PageTitle title="Art" />
 
@@ -98,10 +97,19 @@ const Art = () => {
         <div className={styles.AllArtwork}>
           {artDb.map((artwork, idx) => (
             <div key={idx} className={styles.EachArtwork}>
-                <h5 className={styles.title}>{artwork.name}</h5>
-                
+              <h5 className={styles.title}>{artwork.name}</h5>
+
               <div className={styles.imageDiv}>
-                <img src={artwork.image} alt={artwork.name}/>
+                <Image
+                  src={artwork.image}
+                  alt={artwork.name}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  width={1000}
+                  height={1000}
+                />
               </div>
 
               <h5 className={styles.medium}>Medium: {artwork.medium}</h5>
@@ -109,7 +117,6 @@ const Art = () => {
           ))}
         </div>
       </div>
-      
     </main>
   );
 };

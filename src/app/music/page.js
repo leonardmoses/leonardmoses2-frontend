@@ -57,7 +57,7 @@ const Music = () => {
                   <p>{song.writeup}</p>
                 </div>
                 
-                <iframe className={styles.Iframe} frameborder="no" allow="autoplay" src={song.embeded}/>
+                <iframe className={styles.Iframe} frameBorder="no" allow="autoplay" src={song.embeded}/>
               </div>
             ))}
         </div>
