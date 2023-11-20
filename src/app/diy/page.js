@@ -1,16 +1,15 @@
 import PageTitle from "../components/PageTitle";
 import styles from "./Diy.module.scss";
+import Image from "next/image";
+
+
 
 const Diy = () => {
   const diyDb = [
     {
       name: "WallmountFront",
-      image: "https://i.imgur.com/ZCMmiN8.jpg",
-    },
-    {
-      name: "WallmountSide",
-      image: "https://i.imgur.com/Or35GGR.jpg",
-    },
+      image: "https://i.imgur.com/TafDTgR.jpg",
+    }
   ];
 
   return (
@@ -109,13 +108,13 @@ const Diy = () => {
             </div>
 
             <div className={styles.WallmountEachImage}>
-              <img src={diyDb[0].image} alt={diyDb.name} />
+              <Image className={styles.Image} src={diyDb[0].image} alt={diyDb[0].name} width={3759} height={2607} layout={"responsive"}/>
             </div>
             
           </div>
         </div>
       </div>
-      
+
     </main>
   );
 };
