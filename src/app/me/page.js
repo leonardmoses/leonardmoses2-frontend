@@ -7,9 +7,7 @@ import PageTitle from "../components/PageTitle";
 const About = () => {
   return (
     <main className={styles.About}>
-      <head>
-        <title>Leonard Moses</title>
-      </head>
+
       <div className="MainContent">
         <PageTitle title="Leonard Moses" />
 
@@ -110,6 +108,7 @@ const About = () => {
           </p>
         </div>
       </div>
+      
     </main>
   );
 };

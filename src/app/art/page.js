@@ -53,9 +53,6 @@ const Art = () => {
 
   return (
     <main>
-      <head>
-        <title>Art</title>
-      </head>
 
       <div className="MainContent">
         <PageTitle title="Art" />
@@ -112,6 +109,7 @@ const Art = () => {
           ))}
         </div>
       </div>
+      
     </main>
   );
 };

@@ -35,10 +35,6 @@ const Music = () => {
   return (
     <main>
 
-      <head>
-        <title>Music</title>
-      </head>
-
       <div className="MainContent">
         
         <PageTitle title="Music" />
@@ -53,7 +49,6 @@ const Music = () => {
 
         <h3>Samples</h3>
         <div className={styles.AllProjects}>
-
             {musicDB.map((song, idx) => (
               <div key={idx} className={styles.EachProject}>
 
@@ -65,10 +60,10 @@ const Music = () => {
                 <iframe className={styles.Iframe} frameborder="no" allow="autoplay" src={song.embeded}/>
               </div>
             ))}
-
         </div>
 
       </div>
+
     </main>
   );
 };

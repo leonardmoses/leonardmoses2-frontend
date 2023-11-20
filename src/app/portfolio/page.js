@@ -39,9 +39,6 @@ const Portfolio = () => {
 
   return (
     <main>
-      <head>
-        <title>Portfolio</title>
-      </head>
 
       <div className="MainContent">
         <PageTitle title="Software Developer Portfolio" />
@@ -79,6 +76,7 @@ const Portfolio = () => {
           ))}
         </div>
       </div>
+      
     </main>
   );
 };

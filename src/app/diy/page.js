@@ -15,9 +15,6 @@ const Diy = () => {
 
   return (
     <main>
-      <head>
-        <title>DIY</title>
-      </head>
 
       <div className="MainContent">
         <PageTitle title="DIY" />
@@ -118,6 +115,7 @@ const Diy = () => {
           </div>
         </div>
       </div>
+      
     </main>
   );
 };
