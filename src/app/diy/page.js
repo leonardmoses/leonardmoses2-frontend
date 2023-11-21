@@ -22,7 +22,7 @@ const Diy = () => {
           <p>
             Passionate about creativity and hands-on learning, my fascination
             with Do-It-Yourself (DIY) projects has always been a driving force
-            in my life. Whether it's building intricate furniture pieces,
+            in my life. Whether it is building intricate furniture pieces,
             crafting unique home decor, or exploring innovative tech hacks, I
             find immense joy in the process of creating something from scratch.
             DIY projects not only fuel my curiosity but also serve as a canvas
@@ -54,7 +54,7 @@ const Diy = () => {
                 and IT Skills.
               </p>
               <p>
-                It all started when I had an iMac but wasn’t satisfied with its
+                It all started when I had an iMac but was not satisfied with its
                 graphics capabilities. After researching, I came upon three
                 solutions.
               </p>

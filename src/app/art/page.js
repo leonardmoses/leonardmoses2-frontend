@@ -64,7 +64,7 @@ const Art = () => {
             affair with art, where the graphite dances on paper, capturing the
             essence of my imagination. Painting enriches my world, enabling me
             to blend colors, experimenting with textures and techniques,
-            creating captivating visual narratives.{" "}
+            creating captivating visual narratives.
           </p>
 
           <p>
@@ -73,7 +73,7 @@ const Art = () => {
             crafting intricate designs and vibrant compositions with precision
             and ease. Software like Photoshop and Illustrator open up a realm of
             possibilities, where I can manipulate images, infuse life into
-            illustrations, and create visually striking graphics.{" "}
+            illustrations, and create visually striking graphics.
           </p>
 
           <p>

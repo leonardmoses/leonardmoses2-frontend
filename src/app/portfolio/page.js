@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import PageTitle from "../components/PageTitle";
 import styles from "./Portfolio.module.scss";
 import Link from "next/link";

@@ -1,5 +1,5 @@
 "use client"
-import "./styles/reset.css";
+import "./styles/reset.css"
 import "./Main.scss"
 import { usePathname } from "next/navigation";
 import { useEffect } from "react";
