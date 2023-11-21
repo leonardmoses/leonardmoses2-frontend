@@ -32,8 +32,9 @@
       @include Res700 {display: unset;}
       
 
-      h4 {
+      h6 {
         // background-color: blue;
+        font-size: 1.5rem;
         padding: 7px 20px 12px 20px;
         cursor: pointer;
         color: $color1-2;

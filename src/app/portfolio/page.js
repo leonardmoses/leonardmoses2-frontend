@@ -46,13 +46,13 @@ const Portfolio = () => {
 
         <div className={styles.PortfolioBriefDiv}>
           <div className={styles.PortfolioBrief}>
-            <h5>
+            <p>
               Thank you for taking the time to view my projects. Below is a list
               of web applications I have developed independently. To view and
               interact with the app click on "Live Site." If you would like to
               view the source code click on "GitHub." I have made these mobile
               responsive to be viewed on any popular device.
-            </h5>
+            </p>
           </div>
           <Link href="/portfolio/design" className={styles.DesignNavDiv}>
             <h5>For design portfolio click here</h5>

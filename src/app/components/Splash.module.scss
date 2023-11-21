@@ -169,7 +169,7 @@
           // background-color: darkblue;
 
           #dot1 {
-            background-color: $color1-3;
+            background-color: $color1-Main;
             // z-index: 11;
           }
         }
@@ -180,7 +180,7 @@
 
 
           #dot2 {
-            background-color: $color2-3;
+            background-color: $color2-Main;
             // z-index: 12;
           }
         }
@@ -191,7 +191,7 @@
 
 
           #dot3 {
-            background-color: $color3-3;
+            background-color: $color3-Main;
             // z-index: 13;
 
           }
@@ -203,7 +203,7 @@
 
 
           #dot4 {
-            background-color: $color4-3;
+            background-color: $color4-Main;
          
           }
         }
@@ -212,7 +212,7 @@
           // background-color: darkred;
 
           #dot5 {
-            background-color: $color5-3;
+            background-color: $color5-1;
             
           }
         }
@@ -221,7 +221,7 @@
           // background-color: darkred;
 
           #dot6 {
-            background-color: $color6-3;
+            background-color: $color6-Main;
            
           }
         }
@@ -241,8 +241,6 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    @include Title;
-
     @include Res700 {top: 95%;}
     @include Res500 {top: 95%;}
     @include iphone12Pro {top: 95%;}
@@ -255,7 +253,7 @@
 
     .name_text {
       h1 {
-        font-size: 60px;
+        font-size: 6rem;
         // font-family: $script-font2;
         // background-color: blue;
         // animation-delay: 3s;

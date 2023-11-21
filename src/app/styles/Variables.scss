@@ -1,45 +1,52 @@
 
 // Color Theme //
-$color1-1: #d1e9f9;
-$color1-2: #74beec;
-$color1-3: #1084ce;
-$color1-4: #0e5886;
-$color1-5: #043454;
+$color1-Main: #1084ce;
+$color1-1: #D9EFFC;
+$color1-2: #67BEF4;
+$color1-3: #1084ce; //main
+$color1-4: #094972;
+$color1-5: #031826;
 
-$color2-1: #e9f9d1;
-$color2-2: #beec74;
-$color2-3: #92e017;
-$color2-4: #58860e;
-$color2-5: #1d2d05;
+$color2-Main: #92e017;
+$color2-1: #EEFBDA;
+$color2-2: #BDEF6B;
+$color2-3: #92e017; //main
+$color2-4: #619410;
+$color2-5: #243706;
 
-$color3-1: #f9d1e9;
-$color3-2: #ec74be;
-$color3-3: #ce1084;
-$color3-4: #860e58;
-$color3-5: #2d051d; 
+$color3-Main: #ce1084;
+$color3-1: #FBC6E7;
+$color3-2: #F57AC6;
+$color3-3: #ce1084; //main
+$color3-4: #850A56;
+$color3-5: #260318; 
 
-$color4-1: #DADCFB;
-$color4-2: #6A70F1;
-$color4-3: #0c33d6;
-$color4-4: #071f80;
-$color4-5: #020a2b;
+$color4-Main: #c3d5f4;
+$color4-1: #c3d5f4; //main
+$color4-2: #86AAE9;
+$color4-3: #417ADC;
+$color4-4: #163A79;
+$color4-5: #091934;
 
-$color5-1: #DADCFB;
-$color5-2: #6A70F1;
-$color5-3: #0c33d6;
-$color5-4: #071f80;
-$color5-5: #020a2b;
+$color5-Main: #881eb6;
+$color5-1: #E9CAF6;
+$color5-2: #C573E8;
+$color5-3: #881eb6; //main
+$color5-4: #5C147B;
+$color5-5: #270935;
 
-$color6-1: #DADCFB;
-$color6-2: #6A70F1;
-$color6-3: #0c33d6;
-$color6-4: #071f80;
-$color6-5: #020a2b;
+$color6-Main: #d9d0ce;
+$color6-1: #d9d0ce; //main
+$color6-2: #C1B2AE;
+$color6-3: #957B75;
+$color6-4: #5C4B47;
+$color6-5: #231C1B;
 
 
 @mixin Title {
     background-color: $color1-3;
-    background-image: linear-gradient(0deg, $color4-3, $color3-3);
+    background-image: linear-gradient(180deg, $color3-3, #0c33d6);
+    // background-image: linear-gradient(180deg, $color4-3, $color3-3, $color1-3);
     background-clip: text;
     /* background-size: 100%; */
     /* background-repeat: repeat; */
@@ -50,6 +57,7 @@ $color6-5: #020a2b;
     text-align: center;
     // margin-bottom: 40px;
 }
+
 
 @mixin NavLinks {
     background-color: $color1-3;
