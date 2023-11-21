@@ -2,25 +2,24 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cinzel:wght@400;500;600;700;800;900&family=Gruppo&family=Italianno&family=Jura:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 
 
-$script-font1: "Ballet", cursive;
-$script-font2: "Monsieur La Doulaise", cursive;
-$script-font3: "Italianno", cursive;
+$script-font1: "Monsieur La Doulaise", cursive;
 
-$title-font1: "Cinzel", serif;
-$title-font2: "Gruppo", cursive;
+$title-font1: "Gruppo", cursive;
 
-$body-font1: 'Garamond', serif;
-$body-font2: 'Titillium Web', sans-serif;
-$body-font3: 'Jura', sans-serif;
+$body-font: 'Garamond', serif;
 
 
 .Body {
   main {
     h1 {
-      background-color: $primary3;
-      background-image: linear-gradient(0deg, $complementary3, $tertiary3);
+      font-family: $script-font1;
+      font-size: 4.5rem;
+
+      background-color: $color1-3;
+      background-image: linear-gradient(0deg, $color4-3, $color3-3);
       background-clip: text;
       /* background-size: 100%; */
       /* background-repeat: repeat; */
@@ -32,45 +31,46 @@ $body-font3: 'Jura', sans-serif;
       padding: 10px 0;
       margin-bottom: 40px;
 
-      font-family: $script-font3;
-      font-size: 4.5rem;
     }
     h2 {
-      @include Titleh1;
+      @include Title;
+      font-family: $title-font1;
       margin: 0 auto;
       padding: 25px 0;
       font-size: 5rem;
     }
     h3 {
-      font-family: $body-font1;
+      font-family: $body-font;
       margin-bottom: 10px;
-      color: $primary3;
+      color: $color1-3;
       font-size: 3rem;
     }
     h4 {
-      font-family: $body-font1;
+      font-family: $body-font;
       margin: 8px 0;
-      color: $primary2;
+      color: $color1-2;
       
     }
     h5 {
-      font-family: $title-font2;
+      font-family: $body-font;
       margin: 8px 0;
-      color: $primary2;
+      color: $color1-2;
       font-size: 4rem;
     }
     h6 {
-      font-family: $title-font2;
+      font-family: $title-font1;
       margin: 8px 0;
-      color: $primary2;
+      color: $color1-2;
       font-size: 3rem;
     }
     p {
       // background-color: seagreen;
-      font-family: $body-font1;
-      font-size: 1.8rem;
+      font-family: $body-font;
+      font-size: 1.5rem;
       margin-bottom: 15px;
-      color: $primary5;
+      color: $color1-5;
+      font-weight: normal;
+      // font-style: italic;
     }
     li {
       // background-color: lightgreen;
@@ -80,9 +80,9 @@ $body-font3: 'Jura', sans-serif;
 
     @mixin SubHeader($FontSize) {
       font-size: $FontSize;
-      font-family: $body-font1;
+      font-family: $body-font;
       margin-bottom: 10px;
-      color: $primary3;
+      color: $color1-3;
     }
   }
 }

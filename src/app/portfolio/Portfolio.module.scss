@@ -13,7 +13,7 @@
 
         h5 {
             font-size: 2rem;
-            color: $secondary5;
+            color: $color2-5;
         };
     }
     
@@ -22,21 +22,21 @@
         position:relative;
         
         @include ButtonNav($FontSize:1rem);
-        background-color: $secondary2;
+        background-color: $color2-2;
 
         &:hover {
-            background-color: $secondary3;
-            h5 {color: $secondary1;};
+            background-color: $color2-3;
+            h5 {color: $color2-1;};
         }
         
         &:active {
-            background-color: $secondary4;
-            h5 {color: $secondary3;};
+            background-color: $color2-4;
+            h5 {color: $color2-3;};
         }
 
         h5 {
             // background-color: purple;
-            color: $secondary4;
+            color: $color2-4;
             width: 100%;
             margin: 0;
             font-size: 2rem;
@@ -75,12 +75,12 @@
         width: 300px;
         height: 400px;
         contain: content;
-        box-shadow: 6px 6px 20px -8px $secondary5;
+        box-shadow: 6px 6px 20px -8px $color2-5;
         position: relative;
 
         h4 {
             // background-color: red;
-            color: $secondary3;
+            color: $color2-3;
             font-size: 2rem;
             width: 100%;
             padding: 10px 0;
@@ -97,7 +97,7 @@
 
             img {
                 width: 100%;
-                border: solid 1px $secondary4;
+                border: solid 1px $color2-4;
             }
         }
 
@@ -117,19 +117,19 @@
             animation: pulse 8s infinite;
 
             @include ButtonAction(10px);
-            background-color: $secondary4;
+            background-color: $color2-4;
             padding: 0px 0px;
             border-radius: 0px;
-            border: 1px solid rgba($secondary5 , 0.2);
+            border: 1px solid rgba($color2-5 , 0.2);
             position: absolute;
             bottom: 0;
 
             &:hover {
-                background-color: $secondary2;
-                color: $tertiary4;
+                background-color: $color2-2;
+                color: $color3-4;
             };
             &:active {
-                background-color: $secondary1;
+                background-color: $color2-1;
             }
 
         }

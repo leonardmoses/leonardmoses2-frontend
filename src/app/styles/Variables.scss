@@ -1,57 +1,45 @@
 
 // Color Theme //
-$primary1: #d1e9f9;
-$primary2: #74beec;
-$primary3: #1084ce;
-$primary4: #0e5886;
-$primary5: #043454;
-$primaryWhite: #ebd0d1;
-$primaryBlack: #2a0304;
+$color1-1: #d1e9f9;
+$color1-2: #74beec;
+$color1-3: #1084ce;
+$color1-4: #0e5886;
+$color1-5: #043454;
 
-$secondary1: #e9f9d1;
-$secondary2: #beec74;
-$secondary3: #92e017;
-$secondary4: #58860e;
-$secondary5: #1d2d05;
-$secondaryWhite: #f0d8e6;
-$secondaryBlack: #240116;
+$color2-1: #e9f9d1;
+$color2-2: #beec74;
+$color2-3: #92e017;
+$color2-4: #58860e;
+$color2-5: #1d2d05;
 
-$tertiary1: #f9d1e9;
-$tertiary2: #ec74be;
-$tertiary3: #ce1084;
-$tertiary4: #860e58;
-$tertiary5: #2d051d; 
-$tertiaryWhite: #f6ece2;
-$tertiaryBlack: #271200;
+$color3-1: #f9d1e9;
+$color3-2: #ec74be;
+$color3-3: #ce1084;
+$color3-4: #860e58;
+$color3-5: #2d051d; 
 
-$gold1: #FFECC6;
-$gold2: #CCAF76;
-$gold3: #A08143;
-$gold4: #795A1E;
-$gold5: #452F02;  
-$goldWhite: #eae6dd;
-$goldBlack: #1d1301;
+$color4-1: #DADCFB;
+$color4-2: #6A70F1;
+$color4-3: #0c33d6;
+$color4-4: #071f80;
+$color4-5: #020a2b;
 
-$complementary1: #ced6f7;
-$complementary2: #6d85e6;
-$complementary3: #0c33d6;
-$complementary4: #071f80;
-$complementary5: #020a2b;
-$complementaryWhite: #cbebca;
-$complementaryBlack: #022200;
+$color5-1: #DADCFB;
+$color5-2: #6A70F1;
+$color5-3: #0c33d6;
+$color5-4: #071f80;
+$color5-5: #020a2b;
 
-$blue1: #5874C8;
-$blue2: #1F48C2;
-$blue3: #0B2E98;
-$blue4: #062171;
-$blue5: #021040;
-$blueWhite: #cfd4e4;
-$blueBlack: #020d2c;
+$color6-1: #DADCFB;
+$color6-2: #6A70F1;
+$color6-3: #0c33d6;
+$color6-4: #071f80;
+$color6-5: #020a2b;
 
 
-@mixin Titleh1 {
-    background-color: $primary3;
-    background-image: linear-gradient(0deg, $complementary3, $tertiary3);
+@mixin Title {
+    background-color: $color1-3;
+    background-image: linear-gradient(0deg, $color4-3, $color3-3);
     background-clip: text;
     /* background-size: 100%; */
     /* background-repeat: repeat; */
@@ -64,8 +52,8 @@ $blueBlack: #020d2c;
 }
 
 @mixin NavLinks {
-    background-color: $primary3;
-    background-image: linear-gradient(0deg, $altprimary3, $tertiary3);
+    background-color: $color1-3;
+    background-image: linear-gradient(0deg, $color4-3, $color3-3);
     background-clip: text;
     /* background-size: 100%; */
     /* background-repeat: repeat; */
@@ -77,7 +65,7 @@ $blueBlack: #020d2c;
 
 @mixin ButtonAction($FontSize) {
 
-    background-color: $primary4;
+    background-color: $color1-4;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -89,18 +77,18 @@ $blueBlack: #020d2c;
     transition-duration: 0.2s;
     
     &:hover {
-        background-color: $primary2;
-        color: $primary4;
+        background-color: $color1-2;
+        color: $color1-4;
     }
     &:active {
         transform: scale(0.97);
-        color: $primary1;
+        color: $color1-1;
     }
 }
 
 @mixin ButtonNav($FontSize) {
 
-    background-color: $tertiary4;
+    background-color: $color3-4;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -112,11 +100,11 @@ $blueBlack: #020d2c;
     transition-duration: 0.2s;
     
     &:hover {
-        background-color: $tertiary2;
-        color: $tertiary4;
+        background-color: $color3-2;
+        color: $color3-4;
     }
     &:active {
         transform: scale(0.97);
-        color: $tertiary1;
+        color: $color3-1;
     }
 }

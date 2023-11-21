@@ -36,7 +36,7 @@
         // background-color: blue;
         padding: 7px 20px 12px 20px;
         cursor: pointer;
-        color: $primary2;
+        color: $color1-2;
         @include Res700 {font-size: 1.7rem; padding: 0 0 10px 0; width: 100%;}
         @include Res600 {font-size: 1.4rem;}
         @include iphoneSE {font-size: 1.2rem;}

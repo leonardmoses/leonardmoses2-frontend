@@ -12,7 +12,7 @@
     .EachArtwork {
         // background-color: coral;
         background-color: white;
-        border: solid 20px $primary5;
+        border: solid 20px $color1-5;
         border-radius: 3px;
         margin: 0 auto;
         margin-bottom: 20px;
@@ -21,14 +21,14 @@
         width: 400px;
         height: 600px;
         contain: content;
-        box-shadow: 0px 0px 10px -1px $secondary5;
+        box-shadow: 0px 0px 10px -1px $color2-5;
         // box-shadow: inset 0px 0px 6px -1px $secondary5;
         position: relative;
 
 
 
             .title {
-                background-color: $primary5;
+                background-color: $color1-5;
                 width: 100%;
                 position:absolute;
                 top: 0;
@@ -47,14 +47,14 @@
 
                 img {
                     max-width: 100%;
-                    box-shadow: 0px 0px 4px $secondary5;
+                    box-shadow: 0px 0px 4px $color2-5;
                     // max-height: 100%;
                     // border: solid 1px $secondary4;
                 }
             }
 
             .medium {
-                background-color: $primary5;
+                background-color: $color1-5;
                 width: 100%;
                 margin: 0;
                 padding: 2px 5px;

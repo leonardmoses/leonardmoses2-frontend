@@ -12,9 +12,9 @@
 
     .directions { /* technique from https://www.youtube.com/watch?v=w1nhwUGsG6M */
       h3 {
-        // font-family: $title-font2;
-        text-align: center;
         // background-color: blue;
+        text-align: center;
+        
         font-size: 20px;
         position: relative;
         z-index: 2;
@@ -59,10 +59,9 @@
     @include iphone5SE {margin-top: -30px;}
 
     h1 {
-      font-size: 50px;
-      // font-family: $title-font2;
-      text-align: center;
       // background-color: green;
+      font-size: 50px;
+      text-align: center;
       animation-duration: 2s;
       animation-name: fadein;
     }
@@ -74,7 +73,7 @@
     }
 
     h2 {
-      @include Titleh1;
+      @include Title;
       font-size: 4rem;
   
       @include iphone12Pro {font-size: 4rem;}
@@ -170,7 +169,7 @@
           // background-color: darkblue;
 
           #dot1 {
-            background-color: $primary3;
+            background-color: $color1-3;
             // z-index: 11;
           }
         }
@@ -181,7 +180,7 @@
 
 
           #dot2 {
-            background-color: $secondary3;
+            background-color: $color2-3;
             // z-index: 12;
           }
         }
@@ -192,7 +191,7 @@
 
 
           #dot3 {
-            background-color: $tertiary3;
+            background-color: $color3-3;
             // z-index: 13;
 
           }
@@ -204,7 +203,7 @@
 
 
           #dot4 {
-            background-color: $tertiary4;
+            background-color: $color4-3;
          
           }
         }
@@ -213,7 +212,7 @@
           // background-color: darkred;
 
           #dot5 {
-            background-color: $primary4;
+            background-color: $color5-3;
             
           }
         }
@@ -222,7 +221,7 @@
           // background-color: darkred;
 
           #dot6 {
-            background-color: $secondary4;
+            background-color: $color6-3;
            
           }
         }
@@ -242,7 +241,7 @@
     left: 50%;
     transform: translate(-50%, 0);
 
-    @include Titleh1;
+    @include Title;
 
     @include Res700 {top: 95%;}
     @include Res500 {top: 95%;}
@@ -257,7 +256,7 @@
     .name_text {
       h1 {
         font-size: 60px;
-        font-family: $script-font2;
+        // font-family: $script-font2;
         // background-color: blue;
         // animation-delay: 3s;
         // animation-duration: 4s;

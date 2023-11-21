@@ -7,7 +7,7 @@
   padding-bottom: 3%;
 
   .h3 {
-    color: $tertiary3;
+    color: $color3-3;
     padding-top: 5px;
     
     @include Res700 {font-size: 2rem;}
@@ -23,13 +23,13 @@
   .ResumeButton {
     // background-color: gold;
     @include ButtonAction($FontSize:18px);
-    background-color: $tertiary4;
+    background-color: $color3-4;
     &:hover {
-      background-color: $tertiary2;
-      color: $tertiary4;
+      background-color: $color3-2;
+      color: $color3-4;
     }
     &:active {
-        color: $tertiary1;
+        color: $color3-1;
     }
 
     @include Res900{font-size: 16px};
@@ -39,11 +39,11 @@
 }
 
 .ResumeImageDiv {
-  background-color: rgba($tertiary5, 0.2);
+  background-color: rgba($color3-5, 0.2);
   padding: 2px;
   border: 1px rgba(145, 13, 101, 0.281) solid;
   opacity: 1;
-  box-shadow: 0px 5px 15px -7px $tertiary4;
+  box-shadow: 0px 5px 15px -7px $color3-4;
 
   .ResumeImage {
     object-fit: cover;
