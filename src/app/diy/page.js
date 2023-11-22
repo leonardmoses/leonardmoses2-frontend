@@ -3,6 +3,9 @@ import styles from "./Diy.module.scss";
 import Image from "next/image";
 
 
+export const metadata = {
+  title: "Diy"
+}
 
 const Diy = () => {
   const diyDb = [

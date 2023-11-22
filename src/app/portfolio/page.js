@@ -4,6 +4,10 @@ import styles from "./Portfolio.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 
+export const metadata = {
+  title: "Portfolio"
+}
+
 const Portfolio = () => {
   const portfolioDb = [
     {

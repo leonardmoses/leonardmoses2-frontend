@@ -4,6 +4,10 @@ import Image from "next/image";
 import Headshot from "../static/headshot.jpg";
 import PageTitle from "../components/PageTitle";
 
+export const metadata = {
+  title: "Leonard Moses"
+}
+
 const About = () => {
   return (
     <main className={styles.About}>

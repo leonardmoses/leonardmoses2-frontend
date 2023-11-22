@@ -2,6 +2,11 @@ import PageTitle from "../components/PageTitle";
 import styles from "./Art.module.scss";
 import Image from "next/image";
 
+
+export const metadata = {
+  title: "Art"
+}
+
 const Art = () => {
   const artDb = [
     {

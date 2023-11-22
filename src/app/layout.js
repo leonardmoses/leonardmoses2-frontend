@@ -9,7 +9,6 @@ import Splash from "./components/Splash"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer";
 
-
 export default function RootLayout({ children }) {
   const pathname = usePathname()
   const isHome = pathname === "/"

@@ -1,6 +1,10 @@
 import PageTitle from "../components/PageTitle";
 import styles from "./Music.module.scss";
 
+export const metadata = {
+  title: "Music"
+}
+
 const Music = () => {
 
   const musicDB = [
