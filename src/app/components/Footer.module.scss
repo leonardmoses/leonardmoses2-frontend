@@ -28,6 +28,10 @@ main {
           display: inline;
           justify-content: space-between;
           padding: 0 30px;
+
+          a:hover {
+            color: $color1-3;
+          }
         }
       }
     }
