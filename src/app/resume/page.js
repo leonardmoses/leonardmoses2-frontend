@@ -14,7 +14,7 @@ const Resume = () => {
         <div className={styles.DownloadDiv}>
           <h3 className={styles.h3}>Updated October 2023</h3>
           <a
-            href="../static/Moses_Resume_Software.pdf"
+            href="/Moses_Resume_Software.pdf"
             download
             className={styles.ResumeButton}>
             Download Resume
