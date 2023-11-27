@@ -44,11 +44,15 @@ const Music = () => {
         <PageTitle title="Music" />
 
         <div className="PageIntro">
-          <p>Lorem eiusmod occaecat in adipisicing tempor nostrud sint Lorem esse aute. Sint ex est cupidatat deserunt sint. Sunt minim ipsum in esse elit non et voluptate eu. Commodo ex aliqua dolor eu mollit nostrud id sint do culpa minim deserunt. Veniam reprehenderit id aliqua ipsum minim eu dolore do ullamco elit exercitation dolore.In duis sunt consequat est Lorem incididunt qui in proident ex dolor sit adipisicing irure. Velit ad eiusmod consequat sunt pariatur laboris amet ullamco cillum proident voluptate. Elit ad ullamco dolor culpa consequat fugiat ut enim ex ex. Minim ea exercitation ad non incididunt nisi ullamco in nulla pariatur. Consectetur in do officia sunt exercitation sint in.</p>
+          <p>Music has been an integral aspect of my life since childhood. Early exposure to piano and violin laid the foundation, but it was during a summer session, attempting to play radio hits on the piano, that I grasped the intricacies of music theory. This revelation ignited a profound appreciation, prompting self-taught guitar mastery and the establishment of a high school band. University witnessed my entry into an a cappella group, where I developed a profound admiration for vocal harmony. Post-graduation, my immersion in the world of recording evolved into a passionate hobby, fostering a deep connection to the art of sound.</p>
         </div>
 
         <h3>Recording</h3>
-        <p>Lorem eiusmod occaecat in adipisicing tempor nostrud sint Lorem esse aute. Sint ex est cupidatat deserunt sint. Sunt minim ipsum in esse elit non et voluptate eu. Commodo ex aliqua dolor eu mollit nostrud id sint do culpa minim deserunt. Veniam reprehenderit id aliqua ipsum minim eu dolore do ullamco elit exercitation dolore.In duis sunt consequat est Lorem incididunt qui in proident ex dolor sit adipisicing irure. Velit ad eiusmod consequat sunt pariatur laboris amet ullamco cillum proident voluptate. Elit ad ullamco dolor culpa consequat fugiat ut enim ex ex. Minim ea exercitation ad non incididunt nisi ullamco in nulla pariatur. Consectetur in do officia sunt exercitation sint in.Officia fugiat eu officia eiusmod minim. Qui dolor sunt adipisicing cillum laborum nisi ut elit adipisicing ullamco in deserunt nostrud. Sunt irure excepteur culpa voluptate pariatur eu ea cupidatat eu sit commodo sit. Cillum deserunt nostrud nisi nulla esse ad sunt cupidatat.
+        <p>Music recording represents the fusion of my technical and software proficiency with my musical acumen. Much like the transformative effect of overlaying harmonies onto a melody, the process of layering tracks in recording significantly influences the sonic landscape.
+
+        Within my modest amateur home recording studio, I employ the Behringer UMC U-Phoria 1820 as the cornerstone of my audio hardware interface. The keyboard of choice is the Korg M50, while my microphone arsenal comprises the Rode NT2A, Blue Bluebird, and Blue Babybottle, complemented by the Warm WA12 serving as the primary preamp. To ensure precision and accuracy in sound reproduction, I rely on the JBL LSR308 studio monitors. In terms of software, I leverage Apple's Logic Pro as my preferred digital audio workstation.
+        
+        Attached are samples of my recordings for your appreciation.
         </p>
 
         <h3>Samples</h3>
