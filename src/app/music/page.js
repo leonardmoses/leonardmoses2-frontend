@@ -11,7 +11,7 @@ const Music = () => {
     {
       title: "Covidana",
       embeded: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1668003216&amp;{ ADD YOUR PARAMETERS HERE }",
-      writeup: "Dolore deserunt et voluptate et voluptate do laboris consectetur culpa labore. Cupidatat voluptate tempor et irure ex magna dolor ex ex. Ut officia id ullamco veniam ipsum dolore. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi."
+      writeup: "As the name might suggest, I created this project while alone and bored one afternoon during quarantine."
     },
     {
       title: "Mellow Yellow",
@@ -62,7 +62,6 @@ const Music = () => {
 
                 <div className={styles.ProjectInfoDiv}>
                   <h5>{song.title}</h5>
-                  <p>{song.writeup}</p>
                 </div>
                 
                 <iframe className={styles.Iframe} frameBorder="no" allow="autoplay" src={song.embeded}/>
