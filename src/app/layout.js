@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
     if (isLoading) return
   }, [isLoading])
 
+// goes to splash page before the layout children
   return (
     <html lang="en">
       <body className="Body">
