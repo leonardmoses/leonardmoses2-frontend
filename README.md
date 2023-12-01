@@ -18,4 +18,4 @@ npm i
 ```bash
 npm run dev
 ```
-5. Finally open [http://localhost:3000](http://localhost:3000) with your browser to launch.
+5. Finally open the URL [http://localhost:3000](http://localhost:3000) with your browser to launch.
