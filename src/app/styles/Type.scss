@@ -1,16 +1,16 @@
 @import "./Variables.scss";
 
-@import url('https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&family=Cinzel:wght@400;500;600;700;800;900&family=Gruppo&family=Italianno&family=Jura:wght@300;400;500;600;700&family=Monsieur+La+Doulaise&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Gruppo&family=Monsieur+La+Doulaise&display=swap');
 
 $script-font1: "Monsieur La Doulaise", cursive;
 
 $title-font1: "Gruppo", cursive;
 
-$body-font: 'Garamond', serif;
-// $body-font: 'Garamond', sans-serif;
+$body-header1: "Gruppo", cursive;
+
+// $body-font: 'Garamond', serif;
+$body-font: 'Cormorant Garamond', serif;
+
 
 
 .Body {
@@ -25,45 +25,60 @@ $body-font: 'Garamond', serif;
       margin-bottom: 40px;
 
     }
+
+    //page title
     h2 {
       @include Title;
       font-family: $title-font1;
       margin: 0 auto;
       padding: 25px 0;
       font-size: 5rem;
+      font-weight: 300;
+      // font-style: italic;
     }
+
+    //body headers
     h3 {
-      font-family: $title-font1;
+      font-family: $body-header1;
       margin-bottom: 10px;
       color: $color1-3;
-      font-size: 3rem;
+      font-size: 2.5rem;
+      font-weight: 900;
+      font-style: italic;
     }
     h4 {
-      font-family: $title-font1;
+      font-family: $body-header1;
       margin: 8px 0;
       color: $color1-2;
+      font-weight: 200;
+      font-style: italic;
       
     }
     h5 {
-      font-family: $title-font1;
+      font-family: $body-header1;
       margin: 8px 0;
       color: $color1-2;
       font-size: 4rem;
+      font-weight: 200;
+      // font-style: italic;
     }
     h6 {
       font-family: $body-font;
       margin: 8px 0;
       color: $color1-2;
-      font-size: 3rem;
+      // font-size: 3rem;
     }
+    //body
     p {
       // background-color: seagreen;
       font-family: $body-font;
-      font-size: 1.7rem;
+      font-size: 1.6rem;
       margin-bottom: 15px;
-      color: $color1-5;
-      font-weight: normal;
+      color: $color1-4;
+      // font-weight: lighter;
+      font-weight: 500;
       // font-style: italic;
+      // letter-spacing: 0.03rem;
     }
     li {
       // background-color: lightgreen;
