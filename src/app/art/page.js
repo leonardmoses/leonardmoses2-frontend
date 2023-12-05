@@ -56,6 +56,49 @@ const Art = () => {
     },
   ];
 
+  const art3dDb = [
+    {
+      name: "747 Wing",
+      image: "https://i.imgur.com/mOfAVjn.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Acoustic and Electric Guitars",
+      image: "https://i.imgur.com/iPJ6eAC.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Traditional Alarm Clock",
+      image: "https://i.imgur.com/JHRT329.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Bedroom Desk Angle",
+      image: "https://i.imgur.com/3bWn1FA.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Bedroom at Night",
+      image: "https://i.imgur.com/CTh65qj.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Motherboard: X570 Crosshair VIII Formula",
+      image: "https://i.imgur.com/enSmCIa.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Locky the Dragon",
+      image: "https://i.imgur.com/YO4Q0zJ.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+    {
+      name: "Toyota Supra MKIV",
+      image: "https://i.imgur.com/xhj46gI.jpg",
+      medium: "3D Modeling - Autodesk Maya",
+    },
+  ];
+
   return (
     <main>
       <div className="MainContent">
@@ -101,6 +144,30 @@ const Art = () => {
         <h3>My Artwork</h3>
         <div className={styles.AllArtwork}>
           {artDb.map((artwork, idx) => (
+            <div key={idx} className={styles.EachArtwork}>
+              <h5 className={styles.title}>{artwork.name}</h5>
+
+              <div className={styles.imageDiv}>
+                <Image
+                  src={artwork.image}
+                  alt={artwork.name}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  width={1000}
+                  height={1000}
+                />
+              </div>
+
+              <h5 className={styles.medium}>Medium: {artwork.medium}</h5>
+            </div>
+          ))}
+        </div>
+
+        <h3>3D Modeling</h3>
+        <div className={styles.AllArtwork}>
+          {art3dDb.map((artwork, idx) => (
             <div key={idx} className={styles.EachArtwork}>
               <h5 className={styles.title}>{artwork.name}</h5>
 

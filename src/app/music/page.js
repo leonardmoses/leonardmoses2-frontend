@@ -55,7 +55,7 @@ const Music = () => {
         <h3>Recording</h3>
         <p>Music recording represents the fusion of my technical and software proficiency with my musical acumen. Much like the transformative effect of overlaying harmonies onto a melody, the process of layering tracks in recording significantly influences the sonic landscape.
 
-        Within my modest amateur home recording studio, I employ the Behringer UMC U-Phoria 1820 as the cornerstone of my audio hardware interface. The keyboard of choice is the Korg M50, while my microphone arsenal comprises the Rode NT2A, Blue Bluebird, and Blue Babybottle, complemented by the Warm WA12 serving as the primary preamp. To ensure precision and accuracy in sound reproduction, I rely on the JBL LSR308 studio monitors. In terms of software, I leverage Apple's Logic Pro as my preferred digital audio workstation.
+        Within my modest amateur home recording studio, I employ the Focusrite Scarlett 18i20 as the cornerstone of my audio hardware interface. The keyboard of choice is the Korg M50, while my microphone arsenal comprises the Rode NT2A, Blue Bluebird, and Blue Babybottle, complemented by the Warm WA12 serving as the primary preamp. To ensure precision and accuracy in sound reproduction, I rely on the JBL 308P MkII studio monitors. In terms of software, I leverage Apple's Logic Pro as my preferred digital audio workstation.
         
         Attached are samples of my recordings for your appreciation.
         </p>
