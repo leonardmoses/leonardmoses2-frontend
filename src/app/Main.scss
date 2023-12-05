@@ -5,7 +5,8 @@
 .Body {
   // --background: linear-gradient($color1-1, $color1-5);
   height: 100vh;
-  background-image: linear-gradient(white, $color4-1);
+  // background-image: linear-gradient(white, $color4-1);
+  background-image: linear-gradient(white, #ecf1f8, #e7edf8, #dae6fa, $color4-1);
   background-attachment: fixed;
   // background-repeat: no-repeat;
 
