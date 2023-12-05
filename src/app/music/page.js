@@ -24,6 +24,11 @@ const Music = () => {
       writeup: "Dolore deserunt et voluptate et voluptate do laboris consectetur culpa labore. Cupidatat voluptate tempor et irure ex magna dolor ex ex. Ut officia id ullamco veniam ipsum dolore. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi."
     },
     {
+      title: "Electronic Instrumental 3",
+      embeded: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1683120819&amp;{ ADD YOUR PARAMETERS HERE }",
+      writeup: "Dolore deserunt et voluptate et voluptate do laboris consectetur culpa labore. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi."
+    },
+    {
       title: "LenJam2013 a",
       embeded: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1668006534&amp;{ ADD YOUR PARAMETERS HERE }",
       writeup: "Dolore deserunt et voluptate et voluptate. Cupidatat voluptate tempor et irure ex magna dolor ex ex. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi. Enim quis ea sunt quis ullamco tempor excepteur laborum minim aute ut fugiat nisi."
