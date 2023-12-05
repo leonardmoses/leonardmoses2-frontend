@@ -35,6 +35,36 @@ const Art = () => {
       medium: "iPad brush and layer effects",
     },
     {
+      name: "Horse & Rose",
+      image: "https://i.imgur.com/HQfBsic.jpg",
+      medium: "Pencil, illustrator",
+    },
+    {
+      name: "Overcoat",
+      image: "https://i.imgur.com/O9opT2H.jpg",
+      medium: "Pencil and Scan",
+    },
+    {
+      name: "Football Player",
+      image: "https://i.imgur.com/24CH8dj.jpg",
+      medium: "Pencil and Scan",
+    },
+    {
+      name: "Gladiator",
+      image: "https://i.imgur.com/TQx0GqF.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Grambit",
+      image: "https://i.imgur.com/XMlnAJG.jpg",
+      medium: "iPad Pencil",
+    },
+    {
+      name: "Cyclops Blasting",
+      image: "https://i.imgur.com/JwsNTRX.jpg",
+      medium: "iPad brush and layer effects",
+    },
+    {
       name: "X-Men Trio",
       image: "https://i.imgur.com/mQLScyR.jpg",
       medium: "iPad Pencil",
@@ -43,6 +73,16 @@ const Art = () => {
       name: "Sakura Comic Style",
       image: "https://i.imgur.com/8QUv0fd.jpg",
       medium: "iPad brush and layer effects",
+    },
+    {
+      name: "Akuma Air Hadoken",
+      image: "https://i.imgur.com/p6w0PBB.jpg",
+      medium: "iPad brush and layer effects",
+    },
+    {
+      name: "Chaos (Made up character)",
+      image: "https://i.imgur.com/34BH88w.jpg",
+      medium: "Pencil, illustrator, and photoshop",
     },
     {
       name: "Gokou Super Saiyan Stylized",
