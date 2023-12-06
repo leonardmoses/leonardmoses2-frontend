@@ -24,8 +24,8 @@
       // background-color: rgb(255, 200, 80);
       width: 48%;
       
-      @include Res900 {
-        // width: 100%;
+      @include Res700 {
+        width: 100%;
       }
     }
 
