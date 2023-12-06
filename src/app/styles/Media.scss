@@ -1,6 +1,22 @@
-// @mixin Infinite {
-//     @media only screen and (min-width: 1295px ) { @content; }
-// }
+@mixin ResMin4000 {
+    @media only screen and (min-width: 4000px ) { @content; }
+}
+
+@mixin ResMin2500 {
+    @media only screen and (min-width: 2500px ) { @content; }
+}
+
+@mixin ResMin1920 {
+    @media only screen and (min-width: 1920px ) { @content; }
+}
+
+@mixin ResMin1600 {
+    @media only screen and (min-width: 1600px ) { @content; }
+}
+
+@mixin ResMin1295 {
+    @media only screen and (min-width: 1295px ) { @content; }
+}
 
 @mixin Res1240 {
     @media only screen and (max-width: 1235px ) { @content; }

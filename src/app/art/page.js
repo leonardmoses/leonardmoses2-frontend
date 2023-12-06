@@ -123,7 +123,7 @@ const Art = () => {
       medium: "3D Modeling - Autodesk Maya",
     },
     {
-      name: "Motherboard: X570 Crosshair VIII Formula",
+      name: "Motherboard: X570 Crosshair",
       image: "https://i.imgur.com/enSmCIa.jpg",
       medium: "3D Modeling - Autodesk Maya",
     },
