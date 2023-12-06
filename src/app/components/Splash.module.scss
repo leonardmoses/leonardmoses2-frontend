@@ -248,8 +248,8 @@
     @include iphone5SE {top: 105%;}
 
     @include Height1000{top: 90%;}
-    @include Height750{top: 100%;}
-    @include Height630{opacity: 0;}
+    @include Height750{top: 95%;}
+    @include Height680{opacity: 0;}
 
     .name_text {
       h1 {
@@ -259,9 +259,10 @@
         // animation-delay: 3s;
         // animation-duration: 4s;
         // animation-name: fadein;
-        @include iphone15Pro {font-size: 50px;}
-        @include iphoneSE {font-size: 45px;}
-        @include iphone5SE {font-size: 40px;}
+        @include Res500 {font-size: 5rem;}
+        @include iphone15Pro {font-size: 4.8rem;}
+        @include iphoneSE {font-size: 4.5rem;}
+        @include iphone5SE {font-size: 4rem;}
       }
       
 
