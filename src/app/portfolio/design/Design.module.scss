@@ -1,0 +1,161 @@
+@import "../../Main.scss";
+
+
+.PortfolioBriefDiv {
+    // background-color: purple;
+    display: flex;
+    margin-bottom: 3%;
+    width: 100%;
+
+    @include Res900 {
+        flex-direction: column;
+    }
+
+    .PortfolioBrief {
+        // background-color: red;
+        padding-right: 10px;
+        width: 70%;
+
+        @include Res900 {
+            width: unset;
+            padding: unset;
+        }
+    }
+    
+    .SoftwareNavDiv {
+        background-color: blue;
+        width: 30%;
+        position:relative;
+
+        @include Res900 {
+            width: unset;
+        }
+        
+        @include ButtonNav($FontSize:1rem);
+        background-color: $color2-2;
+
+        &:hover {
+            background-color: $color2-3;
+            h5 {color: $color2-1;};
+        }
+        
+        &:active {
+            background-color: $color2-4;
+            h5 {color: $color2-3;};
+        }
+
+        h5 {
+            // background-color: purple;
+            color: $color2-4;
+            width: 100%;
+            margin: 0;
+            font-size: 2rem;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            
+            @include Res1000{font-size: 1.8rem};
+            @include Res700{font-size: 1.7rem};
+            @include Res500{font-size: 1.5rem};
+        };
+    
+    }
+
+}
+
+
+.AllDesigns{
+    background-color: $color4-1;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px -4px $color4-5;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+    @include iphone15ProMax {
+        background-color: unset;
+        border-radius: unset;
+        box-shadow: unset;
+        padding: 0px;
+    }
+    
+
+    .EachDesign{
+        // background-color: coral;
+        background-color: white;
+        border: solid 20px $color1-5;
+        border-radius: 3px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 600px;
+        contain: content;
+        box-shadow: 0px 0px 8px -1px $color4-5;
+        position: relative;
+
+        @include Res700 {height: 570px;}
+        @include Res500 {height: 550px;}
+        @include iphone15ProMax {height: 450px;}
+
+            .title {
+                background-color: $color1-5;
+                padding-bottom: 5px;
+                width: 100%;
+                position:absolute;
+                top: 0;
+                text-align: center;
+                font-size: 2.5rem;
+                margin: 0;
+
+                @include iphone15Pro {font-size: 2rem;}
+            }
+
+
+            .imageDiv {
+                // overflow: hidden;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                object-fit:cover;
+
+                // @include Infinite {left: unset; transform: 0%, -50%;}
+
+                img {
+                    max-width: 100%;
+                    min-width: 25vw;
+                    box-shadow: 0px 0px 4px $color4-5;
+
+                    @include Res1240 {min-width: 30vw;}
+                    @include Res900 {min-width: 40vw;}
+                    @include Res700 {min-width: 55vw;}
+                    @include Res500 {min-width: 65vw;}
+
+
+                    @include ResMin1295 {min-width: 20vw;}
+                    @include ResMin1920 {min-width: 15vw;}
+                    @include ResMin2500 {min-width: 10vw;}
+                    @include ResMin4000 {min-width: 7vw;}
+                }
+            }
+
+            .medium {
+                background-color: $color1-5;
+                width: 100%;
+                margin: 0;
+                padding: 5px 5px;
+                position: absolute;
+                bottom: 0;
+                font-size: 2rem;
+
+                @include iphone15Pro {font-size: 1.5rem;}
+                
+            }
+    }
+
+}
