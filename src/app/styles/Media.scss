@@ -6,6 +6,10 @@
     @media only screen and (max-width: 1235px ) { @content; }
 }
 
+@mixin Res1000 {
+    @media only screen and (max-width: 1000px ) { @content; }
+}
+
 @mixin Res900 {
     @media only screen and (max-width: 900px ) { @content; }
 }
@@ -22,8 +26,12 @@
     @media only screen and (max-width: 500px ) { @content; }
 }
 
-@mixin iphone12Pro {
-    @media only screen and (max-width: 390px ) { @content; }
+@mixin iphone15ProMax {
+    @media only screen and (max-width: 430px ) { @content; }
+}
+
+@mixin iphone15Pro {
+    @media only screen and (max-width: 393px ) { @content; }
 }
 
 @mixin iphoneSE {

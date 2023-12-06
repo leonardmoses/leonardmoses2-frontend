@@ -55,7 +55,7 @@
     width: fit-content;
     width: 100%;
 
-    @include iphone12Pro {padding-top: 0px;}
+    @include iphone15Pro {padding-top: 0px;}
     @include iphone5SE {margin-top: -30px;}
 
     h1 {
@@ -76,7 +76,7 @@
       @include Title;
       font-size: 4rem;
   
-      @include iphone12Pro {font-size: 4rem;}
+      @include iphone15Pro {font-size: 4rem;}
       @include iphone5SE {font-size: 3rem;}
     }
   }
@@ -107,7 +107,7 @@
         border-radius: 50%;
         border: 15px black solid;
 
-        @include iphone12Pro {
+        @include iphone15Pro {
           height: 305px; 
           width: 305px;
           border: 11px black solid;
@@ -143,7 +143,7 @@
         
         // @include Res700{height: 33px;width: 33px;};
         // @include Res500{height: 30px;width: 30px;};
-        @include iphone12Pro{
+        @include iphone15Pro{
           height: 27px;
           width: 27px;
           left: 52%;
@@ -243,7 +243,7 @@
 
     @include Res700 {top: 95%;}
     @include Res500 {top: 95%;}
-    @include iphone12Pro {top: 95%;}
+    @include iphone15Pro {top: 95%;}
     @include iphoneSE {top: 95%;}
     @include iphone5SE {top: 105%;}
 
@@ -259,7 +259,7 @@
         // animation-delay: 3s;
         // animation-duration: 4s;
         // animation-name: fadein;
-        @include iphone12Pro {font-size: 50px;}
+        @include iphone15Pro {font-size: 50px;}
         @include iphoneSE {font-size: 45px;}
         @include iphone5SE {font-size: 40px;}
       }

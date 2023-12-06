@@ -3,16 +3,8 @@
 main {
   .FooterMain {
     // background-color: coral;
-    width: 80%;
     margin: 0 auto;
     padding: 0 0 20px 0;
-
-    @include Res500 {
-      width: 80%;
-    }
-    @include iphone12Pro {
-      width: 85%;
-    }
 
     .Links {
     //   background-color: lightblue;

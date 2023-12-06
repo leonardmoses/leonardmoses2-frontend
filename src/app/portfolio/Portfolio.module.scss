@@ -5,21 +5,30 @@
     // background-color: purple;
     display: flex;
     margin-bottom: 3%;
+    width: 100%;
+
+    @include Res900 {
+        flex-direction: column;
+    }
 
     .PortfolioBrief {
         // background-color: red;
-        padding: 5px 10px;
+        padding-right: 10px;
         width: 70%;
 
-        p {
-            font-size: 1.8rem;
-            color: $color2-5;
-        };
+        @include Res900 {
+            width: unset;
+            padding: unset;
+        }
     }
     
     .DesignNavDiv {
         width: 30%;
         position:relative;
+
+        @include Res900 {
+            width: unset;
+        }
         
         @include ButtonNav($FontSize:1rem);
         background-color: $color2-2;
@@ -45,10 +54,9 @@
             top: 50%;
             transform: translate(-50%, -50%);
             
-            @include Res900{font-size: 16px};
-            @include Res700{font-size: 13px};
-            @include Res500{font-size: 14px};
-
+            @include Res1000{font-size: 1.8rem};
+            @include Res700{font-size: 1.7rem};
+            @include Res500{font-size: 1.5rem};
         };
     
     }
@@ -65,10 +73,18 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+
+    @include iphone15ProMax {
+        background-color: unset;
+        border-radius: unset;
+        box-shadow: unset;
+        padding: 0px;
+    }
     
 
     .ProjectDiv {
-        background-color: rgb(248, 247, 253) ;
+        background-color: rgb(248, 247, 253);
+        background-color: $color4-5;
         // border: solid 1px black;
         border-radius: 8px;
         margin: 0 auto;
@@ -80,6 +96,20 @@
         contain: content;
         box-shadow: 6px 6px 20px -8px $color2-5;
         position: relative;
+
+
+        @include Res900 {
+            width: 400px;
+            height: 600px;
+        }
+
+        @include iphone15ProMax {
+            width: 400px;
+            height: 500px;
+        }
+        @include iphone15Pro {
+            width: 400px;
+        }
 
         h4 {
             // background-color: red;
@@ -97,6 +127,8 @@
             position: absolute;
             top: 50%;
             transform: translate(0%, -50%);
+
+            @include Res900 {height: 400px;}
 
             img {
                 width: 100%;
