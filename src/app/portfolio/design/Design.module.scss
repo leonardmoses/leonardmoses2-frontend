@@ -123,6 +123,7 @@
                 left: 50%;
                 transform: translate(-50%, -50%);
                 object-fit:cover;
+                z-index: -1;
 
                 // @include Infinite {left: unset; transform: 0%, -50%;}
 
