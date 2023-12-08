@@ -17,7 +17,7 @@ const Resume = () => {
         <PageTitle title="Resume" />
 
         <div className={styles.DownloadDiv}>
-          <h4 className={styles.h4}>Updated October 2023</h4>
+          <h4 className={styles.h4}>Updated December 2023</h4>
           <a
             href="/Moses_Resume_Software.pdf"
             download

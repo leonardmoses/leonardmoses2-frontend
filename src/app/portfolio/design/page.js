@@ -75,44 +75,49 @@ const Design = () => {
 
   const designCollabDb = [
     {
-      name: "747 Wing",
-      image: "https://i.imgur.com/mOfAVjn.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Logo Design",
+      image: "https://i.imgur.com/N3piNE1.png",
+      medium: "Illustrator",
     },
     {
-      name: "Acoustic and Electric Guitars",
-      image: "https://i.imgur.com/iPJ6eAC.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Website Design",
+      image: "https://i.imgur.com/8EohDyq.jpg",
+      medium: "Photoshop | Dreamweaver",
     },
     {
-      name: "Traditional Alarm Clock",
-      image: "https://i.imgur.com/JHRT329.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Website Design",
+      image: "https://i.imgur.com/pOeRMQQ.jpg",
+      medium: "Photoshop | Dreamweaver",
     },
     {
-      name: "Bedroom Desk Angle",
-      image: "https://i.imgur.com/3bWn1FA.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Scoober App Design",
+      image: "https://i.imgur.com/NxB5Vjm.png",
+      medium: "Photoshop",
     },
     {
-      name: "Bedroom at Night",
-      image: "https://i.imgur.com/CTh65qj.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Scoober App Sign Up",
+      image: "https://i.imgur.com/EifTZpF.png",
+      medium: "Photoshop",
     },
     {
-      name: "Motherboard: X570 Crosshair",
-      image: "https://i.imgur.com/enSmCIa.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Scoober App Dashboard",
+      image: "https://i.imgur.com/68rrolP.jpg",
+      medium: "Photoshop",
     },
     {
-      name: "Locky the Dragon",
-      image: "https://i.imgur.com/YO4Q0zJ.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Scoober App Payment 1",
+      image: "https://i.imgur.com/iVi9ctn.jpg",
+      medium: "Photoshop",
     },
     {
-      name: "Toyota Supra MKIV",
-      image: "https://i.imgur.com/xhj46gI.jpg",
-      medium: "3D Modeling - Autodesk Maya",
+      name: "Scoober App Payment 2",
+      image: "https://i.imgur.com/GBcUvjq.jpg",
+      medium: "Photoshop",
+    },
+    {
+      name: "Scoober App Payment 3",
+      image: "https://i.imgur.com/AfsQ237.jpg",
+      medium: "Photoshop",
     },
   ];
 
@@ -129,7 +134,7 @@ const Design = () => {
             </p>
           </div>
           <Link href="/portfolio" className={styles.SoftwareNavDiv}>
-            <h5>For Software portfolio click here</h5>
+            <h5>For software portfolio click here</h5>
           </Link>
         </div>
 
@@ -157,6 +162,33 @@ const Design = () => {
           ))}
         </div>
 
+
+        {/* Remove the brackets to enable the code */}
+        {/* 
+        <h3>Designs Done in Collaboration</h3>
+        <div className={styles.AllDesigns}>
+          {designCollabDb.map((design, idx) => (
+            <div key={idx} className={styles.EachDesign}>
+              <h5 className={styles.title}>{design.name}</h5>
+
+              <div className={styles.imageDiv}>
+                <Image
+                  src={design.image}
+                  alt={design.name}
+                  style={{
+                    width: '100%',
+                    height: 'auto',
+                  }}
+                  width={1000}
+                  height={1000}
+                />
+              </div>
+
+              <h5 className={styles.medium}>Medium: {design.medium}</h5>
+            </div>
+          ))}
+        </div>
+        */}
 
       </div>
       
