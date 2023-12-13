@@ -22,7 +22,7 @@ const Resume = () => {
             href="/Moses_Resume_Software.pdf"
             download
             className={styles.ResumeButton}>
-            Download Resume
+            <h5>Download Resume</h5>
           </a>
         </div>
 

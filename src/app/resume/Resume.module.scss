@@ -22,7 +22,7 @@
 
   .ResumeButton {
     // background-color: gold;
-    @include ButtonAction($FontSize:18px);
+    @include ButtonAction($FontSize:1.8rem);
     background-color: $color3-4;
     &:hover {
       background-color: $color3-2;
@@ -32,9 +32,14 @@
         color: $color3-1;
     }
 
-    @include Res900{font-size: 16px};
-    @include Res700{font-size: 13px};
-    @include Res500{font-size: 14px};
+    h5 {
+      font-size: 1.8rem;
+      @include Res900{font-size: 1.6rem};
+      @include Res700{font-size: 1.3rem};
+      @include Res500{font-size: 1.5rem};
+    }
+
+
   }
 }
 
