@@ -218,7 +218,7 @@ const Splash = () => {
                 </Link>
               </motion.div>
             )}
-
+{/* 
             {isDesktop ? (
               <motion.div
                 className={styles.dot4_container}
@@ -380,6 +380,7 @@ const Splash = () => {
                 </Link>
               </motion.div>
             )}
+            */}
           </motion.div>
 
           <div className={styles.name_container}>
