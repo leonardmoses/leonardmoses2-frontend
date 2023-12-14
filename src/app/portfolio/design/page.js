@@ -135,7 +135,7 @@ const Design = () => {
         <div className={styles.PortfolioBriefDiv}>
           <div className={styles.PortfolioBrief}>
             <p>
-              Welcome to my Design Portfolio. Below is a list of my design compositions.
+            Welcome to my Design Portfolio! Regrettably, several years ago, I experienced a hard drive failure resulting in the loss of a substantial portion of my design endeavors. The curated selection presented herein represents a few works I had successfully recovered. At present, these showcased pieces stand as a testament to my proficiency in design composition, layering, photo-retouching and editing, typography, layout, color themes, and various other design principles.
             </p>
           </div>
           <Link href="/portfolio" className={styles.SoftwareNavDiv}>
