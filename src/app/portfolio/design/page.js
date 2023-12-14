@@ -135,7 +135,7 @@ const Design = () => {
         <div className={styles.PortfolioBriefDiv}>
           <div className={styles.PortfolioBrief}>
             <p>
-              Welcome to my Design Portfolio. Below is a list of my design compositions. Consectetur occaecat irure tempor qui reprehenderit irure duis ad ullamco ea. Minim excepteur id pariatur magna. Aliqua reprehenderit sit est proident labore culpa proident ad quis excepteur voluptate. Aliqua sit exercitation veniam id anim ullamco exercitation ad tempor minim officia anim. Eu nostrud est aliqua magna irure laboris reprehenderit deserunt aliqua eiusmod cupidatat. Deserunt fugiat ea amet laboris sit culpa ad sint quis consectetur. Consectetur mollit aliqua cupidatat occaecat labore nisi do exercitation amet qui. Ad ullamco excepteur velit irure id elit sint non id ea minim. Eu eiusmod officia duis Lorem nostrud ipsum magna et cillum id aute aliquip nulla aute. Lorem dolor elit proident enim nisi sint irure irure elit commodo. Duis aute sit aute mollit.
+              Welcome to my Design Portfolio. Below is a list of my design compositions.
             </p>
           </div>
           <Link href="/portfolio" className={styles.SoftwareNavDiv}>
