@@ -3,6 +3,11 @@ import Link from "next/link";
 import Image from "next/image";
 import styles from "./Design.module.scss"
 
+
+export const metadata = {
+  title: "Design Portfolio"
+}
+
 const Design = () => {
 
   const designSoloDb = [

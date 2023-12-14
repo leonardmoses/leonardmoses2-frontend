@@ -37,8 +37,9 @@
       @include Res900{font-size: 1.6rem};
       @include Res700{font-size: 1.3rem};
       @include Res500{font-size: 1.5rem};
-    }
 
+      color: $color3-1;
+    }
 
   }
 }

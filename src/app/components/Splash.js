@@ -380,7 +380,7 @@ const Splash = () => {
                 </Link>
               </motion.div>
             )}
-            */}
+*/}
           </motion.div>
 
           <div className={styles.name_container}>
