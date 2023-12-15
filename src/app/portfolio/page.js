@@ -51,11 +51,7 @@ const Portfolio = () => {
         <div className={styles.PortfolioBriefDiv}>
           <div className={styles.PortfolioBrief}>
             <p>
-              Thank you for taking the time to view my projects. Below is a list
-              of web applications I have developed independently. To view and
-              interact with the app click on "Live Site." If you would like to
-              view the source code click on "GitHub." I have made these mobile
-              responsive to be viewed on any popular device.
+              In the realm of software engineering, we wield the power to transform imagination into reality. It is this thrilling future I am excited to help usher in. The path to get there is filled with problems that need solving, and problem-solving is an integral part of me. Whether it be in art, music, or any other project, no obstacle has ever stopped me from coming up with a solution. I think outside the box and bring new perspectives. This is why I enjoy software engineering so much. Below is a list of web applications I have developed independently. There are two links under each app: “Live Site” to view and interact with the app, and “GitHub” to view the source code.
             </p>
           </div>
           <Link href="/portfolio/design" className={styles.DesignNavDiv}>

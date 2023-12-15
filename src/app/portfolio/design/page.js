@@ -135,7 +135,7 @@ const Design = () => {
         <div className={styles.PortfolioBriefDiv}>
           <div className={styles.PortfolioBrief}>
             <p>
-            Welcome to my Design Portfolio! Regrettably, several years ago, I experienced a hard drive failure resulting in the loss of a substantial portion of my design endeavors. The curated selection presented herein represents a few works I had successfully recovered. At present, these showcased pieces stand as a testament to my proficiency in design composition, layering, photo-retouching and editing, typography, layout, color themes, and various other design principles.
+            Welcome to my design portfolio! With my innate artistic inclination, I was drawn towards design, leading me to pursue a bachelor’s degree in Visual Communication. I immersed myself in the realm of graphic design, acquiring knowledge of design principles to effectively convey my message through visual language. Every product, service, or entity necessitates a compelling visual representation to communicate their identity to the world, and that's where I excel. Below, you'll find a selection of my works showcasing my proficiency in design composition, photo retouching and editing, typography, layout, color themes, and various other design principles.
             </p>
           </div>
           <Link href="/portfolio" className={styles.SoftwareNavDiv}>
