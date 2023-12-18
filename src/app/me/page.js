@@ -19,10 +19,10 @@ const About = () => {
           <Image src={Headshot} alt="Headshot of Leonard Moses" />
           <div className={styles.ContactLinks}>
             <Link href="mailto:leonardsamuelmoses@gmail.com">
-              <h6>email: leonardsamuelmoses@gmail.com</h6>
+              <h6 className={styles.email}>email: leonardsamuelmoses@gmail.com</h6>
             </Link>
             <Link href="tel:2404928550">
-              <h6>phone: +1(240)492-8550</h6>
+              <h6 className={styles.phone}>phone: +1(240)492-8550</h6>
             </Link>
           </div>
         </div>
