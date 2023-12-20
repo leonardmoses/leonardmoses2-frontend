@@ -27,7 +27,7 @@ const Testimonials = () => {
       relationship: "Former Employer",
       image: "https://i.imgur.com/QhyCgIQ.png",
       statement:
-        "Dolore pariatur aute adipisicing dolor eiusmod ipsum est ex do consequat adipisicing in sunt ea. Mollit culpa eu ex exercitation id eiusmod do in culpa nisi eiusmod aute et. Incididunt proident Lorem elit sit irure aliqua cillum Lorem duis. Officia ad aute incididunt est occaecat sunt ut ad consequat exercitation est minim aliquip dolore. Voluptate culpa veniam tempor nulla ad aliqua ex est proident eu ea minim. Aute fugiat amet et consectetur.",
+        "Dolore pariatur aute adipisicing dolor eiusmod ipsum est ex do consequat adipisicing in sunt ea. Mollit culpa eu ex exercitation id eiusmod do in culpa nisi eiusmod aute et. Incididunt proident Lorem elit sit irure aliqua cillum Lorem duis. Officia ad aute incididunt est occaecat sunt ut ad consequat exercitation est minim aliquip dolore.",
     },
     {
       name: "Regie Samuel",
@@ -72,7 +72,7 @@ const Testimonials = () => {
 
                 <div className={styles.InfoDiv}>
                   <h5>{testimonial.relationship}</h5>
-                  <p>{testimonial.statement}</p>
+                    <p>{testimonial.statement}</p>
                 </div>
               </div>
             </div>

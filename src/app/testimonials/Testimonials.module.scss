@@ -17,23 +17,46 @@
     .EachTestimonial {
         // background-color: green;
         margin-bottom: 50px;
+        // border: black solid 1px;
+        // padding: 15px;
     
         h5 {
             color:white;
             font-size: 2.5rem;
+
+            @include Res700 {
+                text-align: center;
+                color: $color1-3;
+            };
         }
+
+        @include Res700 {
+            // border-bottom: black solid 1px;
+            // padding-bottom: 50px;
+            margin-bottom: 50px
+        };
 
         .Info {
             background-color: whitesmoke;
             border-radius: 5px;
             box-shadow: 0px 0px 15px -6px $color2-5;
             display: flex;
-            width: 100%;
+
+            @include Res700 {display: unset;};
 
             .ImageOutDiv {
                 width: 30%;
                 padding: 15px;
-                
+
+                @include Res1240 {padding: 10px;};
+                @include Res900 {padding: 7px;};
+                @include Res700 {
+                    padding: 0px;
+                    margin: 0 auto;
+                    width: auto;
+                    box-shadow: 0px 0px 15px -4px $color2-5;
+                };
+
                 .ImageInDiv {
                     background-color: $color4-5;
                     padding: 5px;
@@ -49,15 +72,46 @@
                 // background-color: lightgreen;
                 width: 70%;
                 padding: 15px;
+                position: relative;
+
+                @include Res1240 {padding: 10px;};
+                @include Res900 {padding: 7px;};
+                @include Res700 {position: unset; 
+                    width: auto; 
+                    padding-top: 0px;
+                };
 
                 h5 {
-                    color: $color4-3;
+                    // background-color: chocolate;
+                    color: $color1-3;
                     font-size: 4rem;
+
+                    @include Res1240 {font-size: 3.5rem;}
+                    @include Res1000 {font-size: 3.0rem;}
+                    @include Res900 {font-size: 2.8rem;}
+                    @include Res700 {
+                        color: $color1-3;
+                    }
                 }
 
+
                 p {
-                    padding-top: 10%;
+                    // background-color: antiquewhite;
+                    margin-right: 10px;
                     font-size: 2rem;
+                    position: absolute;
+                    top: 50%;
+                    transform: translate(0, -50%);
+
+                    @include Res1240 {font-size: 1.8rem;}
+                    @include Res1000 {font-size: 1.6rem;}
+                    @include Res900 {font-size: 1.5rem;}
+                    @include Res700 {
+                        position: unset;
+                        margin: 0;
+                        top: unset;
+                        transform: unset;
+                    }
                 }
 
             }
